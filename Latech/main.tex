@@ -1,0 +1,44 @@
+\documentclass{hebrew-academic-template}
+\addbibresource{refs.bib}
+\begin{document}
+\hebrewtitle{בינה מבוזרת: סוכנים אוטונומיים בעידן הבינה המלאכותית}
+\englishtitle{Distributed Intelligence: Autonomous Agents in the Age of AI}
+\author{ד"ר יורם סגל}
+\date{\hebyear{2025}}
+\newcommand{\version}{\en{Version 3.0}}
+\maketitle
+\vspace{-1em}
+\begin{center}
+\version
+\end{center}
+% Override footer to replace default name
+\fancyfoot[LE]{\en{\thepage}}
+\fancyfoot[RO]{\en{\thepage}}
+\fancyfoot[RE]{\en{©} \en{Dr. Yoram Segal} - כל הזכויות שמורות - \version}
+\fancyfoot[LO]{\en{©} \en{Dr. Yoram Segal} - כל הזכויות שמורות - \version}
+
+\begin{abstract}
+בעשור האחרון אנו עדים למעבר מפרדיגמת בינה מלאכותית יחידה למערכות המורכבות מצוות של סוכנים מתמחים. ספר זה בוחן לעומק שינוי פרדיגמה זה, ומשלב דיון היסטורי-פילוסופי עם ניתוח תאורטי-מתמטי ברמת מחקר מתקדמת. נסקור את ארכיטקטורת הקוגניציה המבוזרת (תת-סוכנים) וכיצד פלטפורמות דוגמת \textbf{\en{Claude CLI}} ופרוטוקול \textbf{\en{MCP}} מאפשרים שיתוף פעולה חלק בין סוכנים מרובים. נעסוק גם בהיבטי אתיקה, פרטיות וסיכונים הכרוכים בסוכני \en{AI}, ונדגים את הדיון באמצעות מקרה מבחן מעשי – סוכן לחילוץ מידע מ\en{-Gmail}. הספר מציג \textbf{שני מסלולי יישום}: גישה ידנית מלאה (נספחים א–ד) המלמדת את יסודות הפרוטוקול, וגישה מבוססת \en{MCP Python SDK} (נספחים ה–ו, דורשת \en{Python 3.10+}) המציעה פיתוח מהיר יותר. שילוב זה של פרספקטיבה בין-תחומית, עומק טכני ומימוש מעשי כפול נועד להעניק לקורא הבנה רחבה ומעמיקה של הדור החדש של סוכני הבינה המלאכותית.
+\end{abstract}
+
+\tableofcontents
+
+\include{chapters/chapter1}
+\include{chapters/chapter2}
+\include{chapters/chapter3}
+\include{chapters/chapter4}
+\include{chapters/chapter5}
+\include{chapters/chapter6}
+
+\clearpage
+\include{chapters/appendixA}
+\include{chapters/appendixB}
+\include{chapters/appendixC}
+\include{chapters/appendixD}
+\include{chapters/appendixE}
+\include{chapters/appendixF}
+
+\clearpage
+\printenglishbibliography
+
+\end{document}

@@ -1,0 +1,68 @@
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\contentsline {section}{\textenglish {1}\hskip 1em\relax מבוא: שחר עידן הרב-סוכנים}{\textenglish {4}}{Doc-Start}%
+\contentsline {subsection}{\textenglish {1.1}\hskip 1em\relax מהמהפכה הקוגניטיבית לשיתוף פעולה דיגיטלי}{\textenglish {4}}{section*.1}%
+\contentsline {subsection}{\textenglish {1.2}\hskip 1em\relax פירוק המונולית: מחזורי איגוד ופיזור בהיסטוריה הטכנולוגית}{\textenglish {4}}{section*.1}%
+\contentsline {subsection}{\textenglish {1.3}\hskip 1em\relax מבנה הספר: מסע ממושגים לקוד מעשי}{\textenglish {5}}{section*.1}%
+\contentsline {section}{\textenglish {2}\hskip 1em\relax אתיקה, פרטיות ואבטחה בסוכני \textenglish {AI}: סיכונים ופתרונות}{\textenglish {6}}{section*.1}%
+\contentsline {subsection}{\textenglish {2.1}\hskip 1em\relax היבטי אתיקה ופרטיות}{\textenglish {6}}{section*.2}%
+\contentsline {subsection}{\textenglish {2.2}\hskip 1em\relax איומי אבטחה ודרכי התגוננות}{\textenglish {6}}{section*.2}%
+\contentsline {section}{\textenglish {3}\hskip 1em\relax ארכיטקטורת תודעה דיגיטלית: בניית סוכן \textenglish {MCP} עבור \textenglish {Gmail}}{\textenglish {8}}{section*.2}%
+\contentsline {subsection}{\textenglish {3.1}\hskip 1em\relax מהמיתוס למציאות: התפתחות \textenglish {MCP SDK}}{\textenglish {8}}{section*.3}%
+\contentsline {subsection}{\textenglish {3.2}\hskip 1em\relax השילוש הקדוש של אימות: הבטחת אבטחת הסוכן}{\textenglish {8}}{Item.2}%
+\contentsline {subsection}{\textenglish {3.3}\hskip 1em\relax השוואה טכנית: יישום ידני מול \textenglish {MCP Python SDK}}{\textenglish {9}}{Item.5}%
+\xpg@aux {}{english}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\contentsline {section}{\textenglish {4}\hskip 1em\relax מקהלת הסוכנים: שילוב עם \textenglish {Claude CLI}}{\textenglish {12}}{Item.5}%
+\contentsline {section}{\textenglish {5}\hskip 1em\relax צלילת עומק לפרוטוקול \textenglish {MCP}: הבנת אינטגרציה חלקה}{\textenglish {13}}{Item.8}%
+\contentsline {section}{\textenglish {6}\hskip 1em\relax מבנים מתמטיים לייצוג מערכות רב-סוכנים}{\textenglish {15}}{Item.8}%
+\contentsline {subsection}{\textenglish {6.1}\hskip 1em\relax ייצוג רשת הסוכנים כגרף וכמטריצה}{\textenglish {15}}{section*.4}%
+\contentsline {subsection}{\textenglish {6.2}\hskip 1em\relax הרכבת טרנספורמציות לינאריות וניתוח יציבות}{\textenglish {16}}{section*.4}%
+\contentsline {section}{\textenglish {7}\hskip 1em\relax נספח א: \textenglish {\texttt {gmail\_mcp\_server.py}}}{\textenglish {18}}{section*.4}%
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\contentsline {section}{\textenglish {8}\hskip 1em\relax נספח ב: \textenglish {\texttt {fetch\_emails.py}}}{\textenglish {20}}{python.caption.7}%
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\contentsline {section}{\textenglish {9}\hskip 1em\relax נספח ג: \textenglish {\texttt {gmail-extractor.md}}}{\textenglish {21}}{python.caption.8}%
+\xpg@aux {}{english}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\contentsline {section}{\textenglish {10}\hskip 1em\relax נספח ד: \textenglish {\texttt {requirements.txt}}}{\textenglish {22}}{python.caption.8}%
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\contentsline {section}{\textenglish {11}\hskip 1em\relax נספח ה: \textenglish {\texttt {gmail\_mcp\_server\_sdk.py}} – יישום עם \textenglish {MCP Python SDK}}{\textenglish {23}}{python.caption.9}%
+\xpg@aux {}{english}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{english}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{english}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\contentsline {section}{\textenglish {12}\hskip 1em\relax נספח ו: \textenglish {\texttt {requirements\_sdk.txt}} – תלויות עם \textenglish {MCP Python SDK}}{\textenglish {26}}{python.caption.10}%
+\xpg@aux {}{english}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\contentsline {section}{\textenglish {13\hskip 1em\relax English References}}{\textenglish {27}}{python.caption.10}%
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{english}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}

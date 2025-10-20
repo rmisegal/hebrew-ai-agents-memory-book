@@ -1,0 +1,116 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global/global}
+  \entry{Harari2018}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=HYN}{%
+         family={Harari},
+         familyi={H\bibinitperiod},
+         given={Yuval\bibnamedelima Noah},
+         giveni={Y\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Spiegel \& Grau}%
+    }
+    \keyw{english}
+    \strng{namehash}{HYN1}
+    \strng{fullhash}{HYN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{ch.~20, pp.~310--335}
+    \field{title}{21 Lessons for the 21st Century}
+    \list{location}{1}{%
+      {New York}%
+    }
+    \field{year}{2018}
+  \endentry
+
+  \entry{Hendrycks2024}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=HA}{%
+         family={Hendrycks},
+         familyi={H\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=ZSRV}{%
+         family={Zellers},
+         familyi={Z\bibinitperiod},
+         given={S.\bibnamedelima R.\bibnamedelima V.},
+         giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim
+  V\bibinitperiod},
+      }}%
+      {{hash=LT}{%
+         family={Levenson},
+         familyi={L\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=CNR}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={N.\bibnamedelima R.},
+         giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Laskin},
+         familyi={L\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{english}
+    \strng{namehash}{HA+1}
+    \strng{fullhash}{HAZSRVLTCNRLM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{450\bibrangedash 465}
+    \field{title}{A Multilevel Agent Architecture for Complex System
+  Management}
+    \field{volume}{12}
+    \field{journaltitle}{IEEE Transactions on Cognitive Development}
+    \field{month}{09}
+    \field{year}{2024}
+  \endentry
+
+  \entry{Anthropic2025}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{Anthropic}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \keyw{english}
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\emph{Anthropic Developer Docs}}
+    \field{note}{Online; accessed Oct. 20, 2025}
+    \field{title}{Claude Code Subagents: Advanced Orchestration and Context
+  Isolation}
+    \verb{url}
+    \verb https://docs.anthropic.com/claude-code/subagents
+    \endverb
+    \field{year}{2025}
+  \endentry
+\enddatalist
+\endinput

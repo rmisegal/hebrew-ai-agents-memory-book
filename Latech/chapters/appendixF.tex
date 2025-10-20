@@ -1,0 +1,36 @@
+\hebrewsection{נספח ו: \en{\texttt{requirements\_sdk.txt}} – תלויות עם \en{MCP Python SDK}}
+
+\textbf{תלויות \en{Python} עם \en{SDK}:}
+
+\begin{english}
+\begin{verbatim}
+# Official Model Context Protocol Python SDK
+mcp>=1.2.0
+
+# Gmail API (same as before)
+google-api-python-client==2.92.0
+google-auth==2.22.0
+google-auth-httplib2==0.1.0
+google-auth-oauthlib==1.0.0
+
+# Utilities
+python-dotenv==1.0.0
+\end{verbatim}
+\end{english}
+
+\textbf{הבדלים עיקריים:}
+
+\begin{itemize}
+\item \en{mcp>=1.2.0}: ספריית \en{Model Context Protocol Python SDK} הרשמית – מספקת תשתית מוכנה לבניית שרתי \en{MCP} עם מחלקות \en{MCPServer}, דקורטורים, וטיפול אוטומטי בפרוטוקול
+\item השאר זהה: ממשקי \en{Gmail API} נשארים ללא שינוי
+\item התקנה: \en{pip install mcp} או \en{pip install "mcp[cli]"} עם כלי שורת פקודה
+\end{itemize}
+
+\textbf{פרטי חבילה:}
+
+\begin{itemize}
+\item שם החבילה ב\en{-PyPI}: \en{mcp}
+\item דורש: \en{Python >= 3.10}
+\item גרסה מומלצת: \num{1.2.0} ומעלה (נכון לינואר \hebyear{2025})
+\item מאגר: \en{github.com/modelcontextprotocol/python-sdk}
+\end{itemize}

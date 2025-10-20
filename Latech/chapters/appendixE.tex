@@ -1,0 +1,112 @@
+\hebrewsection{נספח ה: \en{\texttt{gmail\_mcp\_server\_sdk.py}} – יישום עם \en{MCP Python SDK}}
+
+\textbf{דרישת גרסה:} יישום זה דורש \en{Python 3.10} ומעלה, עקב תלות ב\en{-MCP Python SDK} הרשמי (חבילת \en{\texttt{mcp}} ב\en{-PyPI}).
+
+\textbf{ייבוא ספריות והגדרת שרת \en{MCP} עם \en{SDK}:}
+
+\begin{english}
+\begin{verbatim}
+from mcp.server import MCPServer
+from mcp.server.decorators import tool
+from google.oauth2.credentials import Credentials
+from googleapiclient.discovery import build
+import os
+
+# Initialize MCP Server using Google's SDK
+server = MCPServer("gmail-extractor")
+
+# Gmail API setup
+creds = Credentials.from_authorized_user_file(
+    'private/token.json',
+    scopes=['https://www.googleapis.com/auth/gmail.readonly']
+)
+gmail_service = build('gmail', 'v1', credentials=creds)
+\end{verbatim}
+\end{english}
+
+\textbf{הגדרת כלי עם דקורטור \en{@tool} – חתימה ותיעוד:}
+
+\begin{pythonbox}
+@tool(
+    name="search_and_export_emails",
+    description="Search Gmail by label and date range, export to CSV"
+)
+async def search_and_export_emails(
+    label: str = None,
+    start_date: str = None,
+    end_date: str = None,
+    max_results: int = 100
+) -> dict:
+    """
+    Search emails and export to CSV file.
+
+    Args:
+        label: Gmail label to filter by (optional)
+        start_date: Start date in YYYY-MM-DD format
+        end_date: End date in YYYY-MM-DD format
+        max_results: Maximum number of results (default: 100)
+
+    Returns:
+        JSON response with success status and file path
+    """
+\end{pythonbox}
+
+\textbf{לוגיקת חיפוש וביצוע:}
+
+\begin{english}
+\begin{verbatim}
+    query = ""
+    if label:
+        query += f"label:{label} "
+    if start_date:
+        query += f"after:{start_date} "
+    if end_date:
+        query += f"before:{end_date} "
+
+    results = gmail_service.users().messages().list(
+        userId='me', q=query.strip(), maxResults=max_results
+    ).execute()
+    messages = results.get('messages', [])
+\end{verbatim}
+\end{english}
+
+\textbf{ייצוא ל\en{-CSV} והחזרת תוצאה:}
+
+\begin{english}
+\begin{verbatim}
+    output_file = f"csv/{label or 'emails'}_{start_date}.csv"
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
+
+    import csv
+    with open(output_file, 'w', newline='',
+              encoding='utf-8-sig') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(["Date", "From", "Subject"])
+
+        for msg in messages:
+            msg_data = gmail_service.users().messages().get(
+                userId='me', id=msg['id']
+            ).execute()
+            headers = {h['name']: h['value']
+                      for h in msg_data['payload']['headers']}
+            writer.writerow([headers.get('Date', ''),
+                           headers.get('From', ''),
+                           headers.get('Subject', '')])
+
+    return {
+        "success": True,
+        "count": len(messages),
+        "message": f"Successfully exported {len(messages)} emails",
+        "output_file": output_file
+    }
+\end{verbatim}
+\end{english}
+
+\textbf{הפעלת השרת:}
+
+\begin{english}
+\begin{verbatim}
+if __name__ == "__main__":
+    server.run()
+\end{verbatim}
+\end{english}

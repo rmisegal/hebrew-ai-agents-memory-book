@@ -1,0 +1,22 @@
+@tool(
+    name="search_and_export_emails",
+    description="Search Gmail by label and date range, export to CSV"
+)
+async def search_and_export_emails(
+    label: str = None,
+    start_date: str = None,
+    end_date: str = None,
+    max_results: int = 100
+) -> dict:
+    """
+    Search emails and export to CSV file.
+
+    Args:
+        label: Gmail label to filter by (optional)
+        start_date: Start date in YYYY-MM-DD format
+        end_date: End date in YYYY-MM-DD format
+        max_results: Maximum number of results (default: 100)
+
+    Returns:
+        JSON response with success status and file path
+    """

@@ -1,0 +1,33 @@
+\hebrewsection{נספח ג: \en{\texttt{gmail-extractor.md}}}
+
+\textbf{תיאור הסוכן ויכולותיו:}
+
+שרת \en{MCP} למיצוי אימיילים מ\en{-Gmail} על בסיס תוויות וטווחי תאריכים, עם ייצוא לפורמט \en{CSV} ותמיכה מלאה ב\en{-Unicode}.
+
+\textbf{הגדרות שרת \en{MCP}:}
+\begin{itemize}
+\item \textbf{שם שרת:} \en{gmail-extractor}
+\item \textbf{פרוטוקול:} \en{stdio}
+\item \textbf{פקודת הפעלה:} \en{python3 /path/to/gmail\_mcp\_server.py}
+\end{itemize}
+
+\textbf{פרמטרים לפונקציה \en{search\_and\_export\_emails}:}
+\begin{itemize}
+\item \en{label}: תווית \en{Gmail} לסינון (אופציונלי)
+\item \en{start\_date}: תאריך התחלה בפורמט \en{YYYY-MM-DD}
+\item \en{end\_date}: תאריך סיום בפורמט \en{YYYY-MM-DD}
+\item \en{max\_results}: מקסימום תוצאות (ברירת מחדל: \num{100})
+\end{itemize}
+
+\textbf{דוגמה לתגובת \en{JSON}:}
+
+\begin{english}
+\begin{verbatim}
+{
+  "success": true,
+  "count": 15,
+  "message": "Successfully exported 15 emails",
+  "output_file": "csv/Research_Data_emails.csv"
+}
+\end{verbatim}
+\end{english}

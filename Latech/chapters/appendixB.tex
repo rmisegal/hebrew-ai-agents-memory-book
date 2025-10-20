@@ -1,0 +1,15 @@
+\hebrewsection{נספח ב: \en{\texttt{fetch\_emails.py}}}
+
+\textbf{סקריפט לדוגמה לשימוש:}
+
+\begin{pythonbox}
+from gmail_mcp_server import search_and_export_emails
+
+# Fetch last 30 days of emails with label "Research_Data"
+result = search_and_export_emails(
+    label="Research_Data",
+    start_date="2025-09-20",
+    end_date="2025-10-20"
+)
+print(result)
+\end{pythonbox}
