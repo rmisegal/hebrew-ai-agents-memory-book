@@ -1,0 +1,98 @@
+\documentclass{../hebrew-academic-template}
+\begin{document}
+
+\hebrewsection{בדיקת טבלאות \en{Skills}}
+
+% ========================================
+% Table 1: Skills Comparison Table
+% Source: SkillsExplanations.pdf, page 3
+% 5 columns × 4 rows
+% ========================================
+
+\begin{hebrewtable}[H]
+\caption{מודלים להפצת ידע ומומחיות בסביבות \en{AI}}
+\label{tab:skills_comparison}
+\centering
+\begin{rtltabular}{|m{2.8cm}|m{2.8cm}|m{2.8cm}|m{2.8cm}|m{2.8cm}|}
+\hline
+\hebheader{מאפיין} &
+\enheader{Claude Skills (CLI)} &
+\enheader{Claude Projects (Web/CLI)} &
+\enheader{Custom GPTs (OpenAI)} &
+\enheader{Model Context Protocol (MCP)} \\
+\hline
+
+\hebcell{מטרת העל} &
+\hebcell{אריזת מומחיות פרוצדורלית וקוד ניתנים לשימוש חוזר.} &
+\hebcell{ניהול קונטקסט נרחב, מסמכי יסוד (\en{Artifacts}) ו\en{-Data Room}.} &
+\hebcell{משימות נישתיות ואינטראקציה מבוססת \en{API}.} &
+\hebcell{רישום פורמלי של כלים חיצוניים (\en{APIs}).} \\
+\hline
+
+\hebcell{בסיס ארכיטקטוני} &
+\hebcell{מערכת קבצים מודולרית (\en{\texttt{SKILL.md}} + \en{Progressive Disclosure}).} &
+\hebcell{קונטקסט ווקטורי גדול + הגדרות \en{YAML}.} &
+\hebcell{הוראות יסוד (\en{Instructions}) וקובצי ידע.} &
+\hebcell{קבצי \en{JSON/YAML} המגדירים סכמות \en{API}.} \\
+\hline
+
+\hebcell{עלות \en{Context}} &
+\hebcell{נמוכה (טעינת \en{Metadata} בלבד בהתחלה).} &
+\hebcell{גבוהה (עלולה לרוקן מכסה עקב טעינת מסמכים חוזרת).} &
+\hebcell{נמוכה עד בינונית (מוגבלת בגודל).} &
+\hebcell{גבוהה (טעינת הרישום כולו כקונטקסט).} \\
+\hline
+
+\hebcell{ניידות/שיתוף} &
+\hebcell{גבוהה (תיקיית קבצים, פורמט דה-פקטו ניטרלי).} &
+\hebcell{בינונית (משותף בתוך הארגון/צוות).} &
+\hebcell{גבוהה (דרך ה\en{-GPT Store}).} &
+\hebcell{בינונית (דורש שרת \en{MCP} פעיל).} \\
+\hline
+\end{rtltabular}
+\end{hebrewtable}
+
+\vspace{2em}
+
+% ========================================
+% Table 2: Skills Paths Table
+% Source: SkillsExplanations.pdf, page 4
+% 4 columns × 2 rows (+ header)
+% ========================================
+
+\begin{hebrewtable}[H]
+\caption{מיקומי תיקיות \en{Skills} ב\en{-Claude CLI} (הקשר המערכתי)}
+\label{tab:skills_paths}
+\centering
+\begin{rtltabular}{|m{2.5cm}|m{4cm}|m{4cm}|m{3cm}|}
+\hline
+\hebheader{סוג \en{Skill}} &
+\enheader{נתיב בתוך Linux (כולל WSL)} &
+\enheader{נתיב משוער ב-Windows (בהקשר של WSL)} &
+\hebheader{משמעות ארכיטקטונית} \\
+\hline
+
+\encell{Personal Skill} &
+\encell{\textasciitilde/.claude/skills/} &
+\encell{/home/<user>/.claude/skills/ (בתוך סביבת WSL)} &
+\hebcell{זמינות גלובלית; מומחיות אישית וניסיונית.} \\
+\hline
+
+\encell{Project Skill} &
+\encell{./.claude/skills/ (בתוך ה\en{-Repo})} &
+\encell{./.claude/skills/ (בתוך ספריית הפרויקט הממופה)} &
+\hebcell{עקביות צוותית; נכנס ל\en{-Git}.} \\
+\hline
+\end{rtltabular}
+\end{hebrewtable}
+
+\vspace{2em}
+
+\textbf{הערות}:
+\begin{itemize}
+  \item טבלה~\ref{tab:skills_comparison} משווה בין \num{4} פלטפורמות להפצת מומחיות: \en{Skills}, \en{Projects}, \en{Custom GPTs}, ו\en{-MCP}.
+  \item טבלה~\ref{tab:skills_paths} ממפה את מיקומי הקבצים עבור \en{Skills} אישיים ופרויקטליים.
+  \item שתי הטבלאות משתמשות ב\en{-RTL} עברי עם תאים מעורבים (\texttt{\textbackslash hebcell\{\}} ו\texttt{\textbackslash encell\{\}}).
+\end{itemize}
+
+\end{document}

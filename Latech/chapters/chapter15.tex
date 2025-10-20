@@ -1,0 +1,143 @@
+\hebrewsection{\en{Skills} בפועל: ממיפוי נתיבים ליישום צוותי}
+\label{sec:chapter15}
+
+\hebrewsubsection{השוואה היסטורית: ארבע דרכים להפצת ידע}
+
+לפני שצללנו לעומק המבנה הטכני של \en{Skills}, חשוב להציב אותם בהקשר של פתרונות קיימים להפצת מומחיות בעולם סוכני הבינה המלאכותית. קיימות כיום ארבע דרכים עיקריות לארוז ידע ולשתף אותו עם סוכנים: \en{Claude Skills} (ב\en{-CLI}), \en{Claude Projects} (בממשק הווב וב\en{-CLI}), \en{Custom GPTs} (של \en{OpenAI}), ופרוטוקול ה\en{-Model Context Protocol (MCP)}. כל אחת מהדרכים הללו מאמצת פילוסופיה ארכיטקטונית שונה, המובילה ליתרונות וחסרונות מובהקים.
+
+\en{Claude Skills} מבוססים על \textbf{מערכת קבצים מודולרית}. כפי שתיארנו בפרק~\ref{sec:chapter14}, \en{Skill} הוא תיקייה פשוטה המכילה קובץ \en{\texttt{SKILL.md}} עם חזית \en{YAML}, וממנפת את עקרון \en{Progressive Disclosure} כדי להפחית עלויות אסימונים. דרך זו מבוססת על התפיסה כי מומחיות צריכה להיות ניידת, ניתנת לגרסנות (דרך \en{Git}), וניטרלית מבחינת ספק (\en{Vendor-Neutral}).
+
+לעומת זאת, \en{Claude Projects}\cite{anthropic2025projects} מאמצים גישה של \textbf{קונטקסט וקטורי גדול}. הם נועדו לניהול מאגרי מידע נרחבים (עד \num{200,000} אסימונים במקרים קיצוניים), ומאפשרים יצירת מסמכי יסוד (\en{Artifacts}) ואינטגרציה עם \en{Data Room}. למרות היתרונות הברורים בתרחישי עבודה שבהם נדרש קונטקסט עשיר, הגישה הזו יכולה להוביל לעלויות גבוהות בשל הטעינה החוזרת של המידע הוקטורי לתוך חלון הקונטקסט, תופעה המכונה \en{Context Thrashing}\cite{anthropic2025thrashing}.
+
+\en{Custom GPTs} של \en{OpenAI} מתמקדים ב\textbf{משימות נישתיות} ובאינטגרציה עם ממשקי \en{API} חיצוניים. הם מאפשרים לכל אדם ליצור \"בוט\" מותאם אישית עם סט הוראות קבוע וקובצי ידע מצורפים. מודל זה משתף את יתרונות הניידות (דרך ה\en{-GPT Store}), אך מוגבל בגודל ובעלויות הקונטקסט, וחסר את הגמישות של \en{Skills} המבוססים על מערכת קבצים.
+
+לבסוף, \textbf{פרוטוקול \en{Model Context Protocol (MCP)}}\cite{anthropic2024mcp}, שדנו עליו בפרק~\ref{sec:chapter5}, הוא דרך פורמלית לרשום כלים חיצוניים (כמו \en{APIs} או שרתי נתונים) באמצעות קבצי \en{JSON} או \en{YAML}. הפרוטוקול מאפשר לסוכנים לגלות ולהשתמש בכלים אלו באופן דינמי. אולם, הטעינה של רישום \en{MCP} השלם לתוך הקונטקסט יכולה להיות יקרה, ו\en{-MCP} דורש שרת פעיל, מה שמוריד מניידות הפתרון.
+
+טבלה~\ref{tab:skills_comparison} מסכמת את ההבדלים המרכזיים בין ארבעת הפתרונות:
+
+\begin{hebrewtable}[H]
+\caption{מודלים להפצת ידע ומומחיות בסביבות \en{AI}}
+\label{tab:skills_comparison}
+\centering
+\begin{rtltabular}{|m{2.8cm}|m{2.8cm}|m{2.8cm}|m{2.8cm}|m{2.8cm}|}
+\hline
+\hebheader{מאפיין} &
+\enheader{Claude Skills (CLI)} &
+\enheader{Claude Projects (Web/CLI)} &
+\enheader{Custom GPTs (OpenAI)} &
+\enheader{Model Context Protocol (MCP)} \\
+\hline
+
+\hebcell{מטרת העל} &
+\hebcell{אריזת מומחיות פרוצדורלית וקוד ניתנים לשימוש חוזר.} &
+\hebcell{ניהול קונטקסט נרחב, מסמכי יסוד (\en{Artifacts}) ו\en{-Data Room}.} &
+\hebcell{משימות נישתיות ואינטראקציה מבוססת \en{API}.} &
+\hebcell{רישום פורמלי של כלים חיצוניים (\en{APIs}).} \\
+\hline
+
+\hebcell{בסיס ארכיטקטוני} &
+\hebcell{מערכת קבצים מודולרית (\en{\texttt{SKILL.md}} + \en{Progressive Disclosure}).} &
+\hebcell{קונטקסט ווקטורי גדול + הגדרות \en{YAML}.} &
+\hebcell{הוראות יסוד (\en{Instructions}) וקובצי ידע.} &
+\hebcell{קבצי \en{JSON/YAML} המגדירים סכמות \en{API}.} \\
+\hline
+
+\hebcell{עלות \en{Context}} &
+\hebcell{נמוכה (טעינת \en{Metadata} בלבד בהתחלה).} &
+\hebcell{גבוהה (עלולה לרוקן מכסה עקב טעינת מסמכים חוזרת).} &
+\hebcell{נמוכה עד בינונית (מוגבלת בגודל).} &
+\hebcell{גבוהה (טעינת הרישום כולו כקונטקסט).} \\
+\hline
+
+\hebcell{ניידות/שיתוף} &
+\hebcell{גבוהה (תיקיית קבצים, פורמט דה-פקטו ניטרלי).} &
+\hebcell{בינונית (משותף בתוך הארגון/צוות).} &
+\hebcell{גבוהה (דרך ה\en{-GPT Store}).} &
+\hebcell{בינונית (דורש שרת \en{MCP} פעיל).} \\
+\hline
+\end{rtltabular}
+\end{hebrewtable}
+
+כפי שניתן לראות, \en{Skills} משלבים את היתרון הכפול של ניידות גבוהה ועלות נמוכה, ולכן מהווים את הבחירה המועדפת לארגונים המעוניינים לאחסן מומחיות פרוצדורלית ארוכת-טווח מבלי להסתמך על ספקים ספציפיים.
+
+\hebrewsubsection{מיפוי נתיבים: היכן נמצאים ה\en{-Skills}?}
+
+אחת השאלות המעשיות הראשונות שמתעוררות בעת עבודה עם \en{Skills} היא: \textbf{היכן מאוחסנים הם במערכת הקבצים?} התשובה תלויה בהקשר השימוש: האם ה\en{-Skill} נועד להיות \textbf{אישי} (זמין לכל הפרויקטים של אותו משתמש), או \textbf{פרויקטלי} (זמין רק לפרויקט מסוים)?
+
+\en{Claude Code CLI}\cite{anthropic2025claudecli} מגדיר שתי תיקיות עיקריות לאחסון \en{Skills}\cite{anthropic2025skillspaths}:
+
+\textbf{Personal Skills} (\en{Skills} אישיים) מאוחסנים בתיקיית הבית של המשתמש, תחת \en{\texttt{\textasciitilde/.claude/skills/}}. תיקייה זו מהווה \"מאגר מומחיות אישי\" שהסוכן יכול לגשת אליו מכל פרויקט. לדוגמה, אם אתם עובדים על פרויקטים מרובים הדורשים עיבוד \en{CSV} או יצירת דוחות \en{Excel}, \en{Skill} אישי יאפשר לכם לעשות זאת מכל מקום בלי לשכפל קוד.
+
+\textbf{Project Skills} (\en{Skills} פרויקטליים) מאוחסנים בתוך ספריית הפרויקט הספציפי, תחת \en{\texttt{./.claude/skills/}}. תיקייה זו נמצאת בדרך כלל בתוך מאגר \en{Git} של הפרויקט, ולכן היא מאפשרת \textbf{גרסנות צוותית}. כל חבר צוות שמשתמש בפרויקט מקבל באופן אוטומטי גישה ל\en{-Skills} הייעודיים של אותו פרויקט, מבלי צורך בהתקנה נוספת.
+
+טבלה~\ref{tab:skills_paths} ממפה את מיקומי הקבצים עבור מערכות הפעלה שונות:
+
+\begin{hebrewtable}[H]
+\caption{מיקומי תיקיות \en{Skills} ב\en{-Claude CLI} (הקשר המערכתי)}
+\label{tab:skills_paths}
+\centering
+\begin{rtltabular}{|m{2.5cm}|m{4cm}|m{4cm}|m{3cm}|}
+\hline
+\hebheader{סוג \en{Skill}} &
+\enheader{נתיב בתוך Linux (כולל WSL)} &
+\enheader{נתיב משוער ב-Windows (בהקשר של WSL)} &
+\hebheader{משמעות ארכיטקטונית} \\
+\hline
+
+\encell{Personal Skill} &
+\encell{\textasciitilde/.claude/skills/} &
+\encell{/home/<user>/.claude/skills/ (בתוך סביבת WSL)} &
+\hebcell{זמינות גלובלית; מומחיות אישית וניסיונית.} \\
+\hline
+
+\encell{Project Skill} &
+\encell{./.claude/skills/ (בתוך ה\en{-Repo})} &
+\encell{./.claude/skills/ (בתוך ספריית הפרויקט הממופה)} &
+\hebcell{עקביות צוותית; נכנס ל\en{-Git}.} \\
+\hline
+\end{rtltabular}
+\end{hebrewtable}
+
+בסביבות \en{Windows}, התמונה מעט מורכבת יותר. \en{Claude Code CLI} פועל בדרך כלל בתוך סביבת \en{Windows Subsystem for Linux (WSL)}\cite{microsoft2023wsl}, שכן מערכת ההפעלה \en{Linux} מספקת תמיכה מקורית במנגנוני קבצים הדרושים ל\en{-CLI}. זה אומר שגם במכונות \en{Windows}, הנתיבים המופיעים בטבלה לעיל הם נתיבים בסגנון \en{Linux} (למשל \en{\texttt{/home/<user>/.claude/skills/}}).
+
+בחירה נכונה בין \en{Personal Skill} ל\en{-Project Skill} תלויה בתרחיש השימוש:
+
+\begin{itemize}
+  \item אם המומחיות נוגעת לתהליך אישי שחוזר על עצמו בכל הפרויקטים שלכם (כמו \"מיון נתוני \en{CSV} וניקוי \en{outliers}\"), השתמשו ב\en{-Personal Skill}.
+  \item אם המומחיות ייחודית לפרויקט מסוים (כמו \"יצירת דוח כספי לפי פורמט החברה\"), השתמשו ב\en{-Project Skill} והכניסו אותו ל\en{-Git}.
+\end{itemize}
+
+הניידות של \en{Skills} מתבטאת בכך ש\textbf{העתקה פשוטה של תיקייה} מספיקה כדי לשתף \en{Skill} עם חבר צוות. אין צורך ב\"חנות אפליקציות\" מרכזית, אין תלות בשרת, ואין \"התקנה\" במובן הקלאסי. פשוט העתק תיקייה, ו\en{-Claude} מזהה אותה באופן אוטונומי בעת ההרצה הבאה.
+
+\hebrewsubsection{דוגמאות מעשיות: מהתיאוריה למימוש}
+
+כדי להבין את הכוח של \en{Skills} בפועל, נבחן שתי דוגמאות קונקרטיות מתיעוד \en{Anthropic}\cite{anthropic2025skillsexamples}:
+
+\textbf{דוגמה ראשונה: \en{webapp-testing}}
+
+\en{Skill} זה מאריז את כללי הבדיקה לאפליקציית ווב (אתר \en{Django} או \en{React}, למשל). במקום להסביר ל\en{-Claude} בכל פעם כיצד להריץ את בדיקות ה\en{-Unit Tests}, כיצד לבדוק \en{Coverage}, ואילו קובצי \en{Fixture} להשתמש, כל הידע הזה נארז ב\en{-\texttt{SKILL.md}}:
+
+\begin{verbatim}
+---
+name: Webapp Testing Framework
+description: |
+  Automated testing for Django-based web app,
+  including fixtures, pytest integration, and coverage reporting.
+allowed-tools: [Bash, Read, Edit]
+---
+# Instructions
+Run `pytest --cov=app` with fixture files in `tests/fixtures/`.
+...
+\end{verbatim}
+
+בעת הצורך, \en{Claude} יזהה אוטונומית (על בסיס ה\en{-\texttt{description}} שבחזית ה\en{-YAML}) שה\en{-Skill} רלוונטי למשימה, יטען את התיעוד המלא, ויריץ את הסקריפטים המתאימים מתוך תיקיית \en{\texttt{scripts/}} ללא צורך בהנחיה ידנית.
+
+\textbf{דוגמה שנייה: \en{document-skills}}
+
+\en{Skill} זה עוסק ביצירת מסמכי \en{Markdown} ממוינים לפי תקן ארגוני (כמו \"כל דוח צריך לכלול: \en{Summary}, \en{Methodology}, \en{Results}, \en{Appendix}\"). הוא גם מכיל סקריפט ל\en{-Linting} של הקבצים שנוצרו, כדי לוודא שהם עומדים בסטנדרט של החברה.
+
+שתי הדוגמאות הללו ממחישות את העיקרון המרכזי: \en{Skills} הם \textbf{מדריכי חפיפה דיגיטליים}, ולא רק אוסף קוד. הם מכילים ידע \textit{פרוצדורלי} (\"כיצד לעשות דברים בפועל\"), ולא רק ידע \textit{דקלרטיבי} (\"מהם העובדות\").
+
+כפי שראינו בפרק~\ref{sec:chapter10}, מערכת ארבעת הקבצים (\en{\texttt{PRD.md}}, \en{\texttt{CLAUDE.md}}, \en{\texttt{PLANNING.md}}, \en{\texttt{TASKS.md}}) מספקת זיכרון פרוצדורלי לסוכן בודד. \en{Skills} מרחיבים זאת: הם מספקים \textbf{יכולות ניתנות להרחבה} שמאפשרות לכל אחד להפוך סוכן כללי לסוכן מומחה תוך דקות, ולשתף את המומחיות הזו עם צוותו ללא צורך בתשתית נוספת.
+
+במובן זה, \en{Skills} משלימים את התמונה הארכיטקטונית שנפרשה לאורך החלקים הקודמים: \textbf{זיכרון חיצוני + ידע מודולרי + יכולות ניתנות להרחבה = קוגניציה מבוזרת ובת-קיימא}.

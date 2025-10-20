@@ -1,18 +1,18 @@
 # Distributed Intelligence: Autonomous Agents in the Age of AI
 
-[![Version](https://img.shields.io/badge/version-4.0-blue.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book/releases/tag/v4.0)
+[![Version](https://img.shields.io/badge/version-5.0-blue.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book/releases/tag/v5.0)
 [![Language](https://img.shields.io/badge/language-Hebrew-orange.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book)
 [![LaTeX](https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg)](https://www.latex-project.org/)
-[![Pages](https://img.shields.io/badge/pages-55-green.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book)
-[![Chapters](https://img.shields.io/badge/chapters-13-brightgreen.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book)
-[![Parts](https://img.shields.io/badge/parts-2-blue.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book)
+[![Pages](https://img.shields.io/badge/pages-64-green.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book)
+[![Chapters](https://img.shields.io/badge/chapters-16-brightgreen.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book)
+[![Parts](https://img.shields.io/badge/parts-3-blue.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book)
 
 **Hebrew Title**: בינה מבוזרת: סוכנים אוטונומיים בעידן הבינה המלאכותית
 **Author**: Dr. Yoram Segal (ד"ר יורם סגל)
-**Version**: 4.0
-**Release Date**: October 20, 2025
-**Pages**: 55
-**Structure**: 2 Parts, 13 Chapters
+**Version**: 5.0
+**Release Date**: October 21, 2025
+**Pages**: 64
+**Structure**: 3 Parts, 16 Chapters
 **Language**: Hebrew (with English technical terms)
 
 ---
@@ -28,6 +28,8 @@ This comprehensive Hebrew-language academic book explores the paradigm shift fro
 - **Claude CLI Integration**: Orchestrating multiple agents in production environments
 - **Ethics & Security**: Privacy, security threats, and defensive strategies
 - **Mathematical Frameworks**: Graph theory and linear algebra for multi-agent systems
+- **Persistent Memory Systems**: 4-file memory architecture for long-term agent cognition
+- **Skills & Modularity**: Progressive Disclosure architecture and reusable expertise packaging
 - **Practical Implementation**: Complete Gmail MCP agent with two implementation approaches
 
 ---
@@ -50,9 +52,9 @@ The book presents **two complete implementation paths** for building an MCP agen
    - Requires Python 3.10+
    - Production-ready boilerplate
 
-### Harari-Standard Narrative
+### Academic Narrative Style
 
-Following Yuval Noah Harari's approach to popular science writing:
+Following best practices in popular science writing:
 - Places technology in historical context
 - Accessible to 80%+ of non-expert readers
 - Critical thinking over marketing hype
@@ -152,6 +154,29 @@ Custom LaTeX template with specialized functions for proper Hebrew-English mixin
     - Future directions: cross-project, semantic, epistemic memory
     - Full-circle return to writing and digital archives
 
+### Part 3: Skills and Modularity - Packaging Expertise for Reuse
+
+14. **The Modular Mind: Skills & Progressive Disclosure** (המוח המודולרי)
+    - From Context Rot to Progressive Disclosure architecture
+    - Skills as "digital onboarding manuals"
+    - 3-tier loading: Metadata → Core Docs → Resources
+    - SKILL.md structure and YAML front matter
+    - Connection to Claude CLI execution environment
+
+15. **Skills in Practice: Comparison & Implementation** (Skills בפועל)
+    - Historical comparison: Skills vs Projects vs Custom GPTs vs MCP
+    - Skills Comparison table (5×5 RTL Hebrew/English)
+    - File paths: Personal Skills vs Project Skills
+    - Skills Paths table (file system mapping)
+    - Concrete examples: webapp-testing, document-skills
+
+16. **Dangers of Automation: Skill Atrophy Warning** (סכנות האוטומציה)
+    - Opaque Invocation trap
+    - Skills limitations: documentation dependency, no learning
+    - Skill Atrophy: the cost of over-automation
+    - 3 guiding principles for responsible use
+    - Full-book synthesis: Architecture + Memory + Modularity
+
 ### Appendices
 
 - **Appendix א**: `gmail_mcp_server.py` - Manual implementation base
@@ -202,13 +227,13 @@ bibtex main
 lualatex main.tex
 lualatex main.tex
 
-# Output: main.pdf (55 pages, ~570KB)
+# Output: main.pdf (64 pages, ~585KB)
 ```
 
 **Expected Results:**
 - ✅ 0 errors (compilation must be clean)
 - ✅ ≤3 warnings (cosmetic only)
-- ✅ 55 pages in A4 format
+- ✅ 64 pages in A4 format
 - ✅ All cross-references resolved
 
 ### Running the Gmail MCP Agent
@@ -263,10 +288,10 @@ python gmail_mcp_server_sdk.py
 hebrew-ai-agents-memory-book/
 ├── README.md                          # This file
 ├── Latech/                            # LaTeX source files
-│   ├── main.tex                       # Main document (Version 4.0)
+│   ├── main.tex                       # Main document (Version 5.0)
 │   ├── main.pdf                       # Compiled PDF output
 │   ├── hebrew-academic-template.cls   # Custom LaTeX class
-│   ├── refs.bib                       # Bibliography
+│   ├── refs.bib                       # Bibliography (46 entries)
 │   │
 │   ├── chapters/                      # Book content
 │   │   ├── chapter1.tex               # Introduction
@@ -281,7 +306,10 @@ hebrew-ai-agents-memory-book/
 │   │   ├── chapter10.tex              # Four Pillars of Memory
 │   │   ├── chapter11.tex              # Knowledge Management
 │   │   ├── chapter12.tex              # Demonstration
-│   │   ├── chapter13.tex              # Conclusion
+│   │   ├── chapter13.tex              # Conclusion (Part 2)
+│   │   ├── chapter14.tex              # Skills & Progressive Disclosure
+│   │   ├── chapter15.tex              # Skills in Practice
+│   │   ├── chapter16.tex              # Dangers of Automation
 │   │   ├── appendixA.tex              # Manual implementation code
 │   │   ├── appendixB.tex              # Fetch emails module
 │   │   ├── appendixC.tex              # Agent description
@@ -289,12 +317,26 @@ hebrew-ai-agents-memory-book/
 │   │   ├── appendixE.tex              # SDK implementation code
 │   │   └── appendixF.tex              # SDK dependencies
 │   │
-│   └── claude_mem/                    # Project documentation
-│       ├── CLAUDE.md                  # Development guide
-│       ├── PLANNING.md                # Project architecture
-│       ├── TASKS.md                   # Task tracking (150+ tasks)
-│       ├── PRD.md                     # Product requirements
-│       └── REORGANIZATION_PLAN.md     # Chapter restructuring plan
+│   ├── claude_mem/                    # Part 1 documentation
+│   │   ├── CLAUDE.md                  # Development guide
+│   │   ├── PLANNING.md                # Project architecture
+│   │   ├── TASKS.md                   # Task tracking
+│   │   └── PRD.md                     # Product requirements
+│   │
+│   ├── claude_mem_part2/              # Part 2 documentation
+│   │   ├── PRD.md                     # Part 2 requirements
+│   │   ├── CLAUDE.md                  # Part 2 CLS rules
+│   │   ├── PLANNING.md                # Part 2 strategy
+│   │   └── TASKS.md                   # Part 2 tasks
+│   │
+│   └── claude_mem_part3/              # Part 3 documentation
+│       ├── PRD.md                     # Part 3 requirements
+│       ├── CLAUDE.md                  # Part 3 CLS rules
+│       ├── PLANNING.md                # Part 3 12-phase strategy
+│       ├── TASKS.md                   # Part 3 tasks (500+ items)
+│       ├── REFERENCES_EXTRACTED.md    # Bibliography analysis
+│       ├── COHERENCE_REVIEW.md        # Narrative coherence review
+│       └── PROJECT_COMPLETE.md        # Version 5.0 summary
 │
 ├── gmail-mcp-agent/                   # Manual implementation
 │   ├── gmail_mcp_server.py            # Main server (manual)
@@ -338,26 +380,63 @@ hebrew-ai-agents-memory-book/
 - Decorator-based tool registration
 - Automatic protocol management
 
-### Quality Metrics (Version 4.0)
+### Quality Metrics (Version 5.0)
 
 | Metric | Target | Achieved |
 |--------|--------|----------|
 | Compilation Errors | 0 | ✅ 0 |
 | Warnings | ≤3 | ✅ 1 |
-| Page Count | 50-58 | ✅ 55 |
-| Parts | 2 | ✅ 2 |
-| Chapters | 13 | ✅ 13 |
+| Page Count | 60-70 | ✅ 64 |
+| Parts | 3 | ✅ 3 |
+| Chapters | 16 | ✅ 16 |
 | CLS Compliance | 100% | ✅ 100% |
 | Code Completeness | All examples | ✅ Complete |
 | Content Repetition | Zero | ✅ Eliminated |
 | Cross-references | All resolved | ✅ Verified |
-| Bibliography Entries | 30+ | ✅ 31 |
+| Bibliography Entries | 45+ | ✅ 46 |
+| Narrative Style | Academic | ✅ Approved |
 
 ---
 
 ## 📊 Version History
 
-### Version 4.0 (October 20, 2025) - Current Release
+### Version 5.0 (October 21, 2025) - Current Release
+
+**Major Expansion:**
+- ✅ Expanded from 2 parts (13 chapters) to 3 parts (16 chapters)
+- ✅ Added Part 3: Skills and Modularity - Packaging Expertise for Reuse
+- ✅ 3 new chapters covering Claude CLI Skills feature (Chapters 14-16)
+- ✅ Complete Skills documentation: Progressive Disclosure, comparison tables, critical analysis
+- ✅ Skill Atrophy warning chapter - critical examination of automation risks
+
+**Content Additions:**
+- ✅ Chapter 14: The Modular Mind - Skills & Progressive Disclosure architecture
+- ✅ Chapter 15: Skills in Practice - comparison tables, file paths, concrete examples
+- ✅ Chapter 16: Dangers of Automation - Skill Atrophy, limitations, responsible use
+
+**Quality Improvements:**
+- ✅ Added 15 bidirectional cross-references between all 3 parts
+- ✅ Forward references in Chapters 1, 4, 10, 13 previewing Part 3
+- ✅ Backward references in Part 3 connecting to Parts 1-2 concepts
+- ✅ Updated abstract to explain 3-part structure
+- ✅ Maintained 100% CLS compliance across all new chapters
+- ✅ Academic narrative consistency verified via comprehensive coherence review
+
+**Technical Updates:**
+- ✅ Added 15 new bibliography entries (total: 46)
+- ✅ 2 RTL tables converted from PDF (Skills Comparison 5×5, Skills Paths 4×3)
+- ✅ Part 3 division with Hebrew and English titles
+- ✅ Full compilation cycle: 0 blocking errors, clean bibtex
+- ✅ Created comprehensive memory system documentation (claude_mem_part3/)
+
+**Final Metrics:**
+- Pages: 64 (from 55)
+- Structure: 3 parts, 16 chapters + 6 appendices
+- Compilation: 0 errors, 1 cosmetic warning
+- File size: 585KB PDF
+- Status: Publication-ready, academic narrative approved
+
+### Version 4.0 (October 20, 2025) - Previous Release
 
 **Major Expansion:**
 - ✅ Expanded from 1 part (6 chapters) to 2 parts (13 chapters)
@@ -382,7 +461,7 @@ hebrew-ai-agents-memory-book/
 - ✅ Backward references in Part 2 connecting to Part 1 concepts
 - ✅ Updated abstract to explain 2-part structure
 - ✅ Maintained 100% CLS compliance across all new chapters
-- ✅ Harari-style narrative consistency throughout
+- ✅ Academic narrative consistency throughout
 
 **Technical Updates:**
 - ✅ Added 23 new bibliography entries (total: 31)
@@ -458,6 +537,13 @@ hebrew-ai-agents-memory-book/
 4. Study **Chapter 12** (Real-world demonstration with metrics)
 5. Read **Part 1** (Chapters 1-6) for architectural context
 
+### For Skills & Modularity Practitioners
+1. Start with **Chapter 14** (Progressive Disclosure architecture)
+2. Study **Chapter 15** (Comparison tables, file paths, practical examples)
+3. Read **Chapter 16** (Critical analysis - Skill Atrophy warning)
+4. Review **Chapter 8** (Context Engineering) for theoretical foundation
+5. Connect to **Chapter 10-11** (Skills complement 4-file memory system)
+
 ---
 
 ## 🔬 Research & Citations
@@ -467,7 +553,7 @@ This book is designed for academic citation. Suggested citation format:
 **APA Style:**
 ```
 Segal, Y. (2025). Distributed Intelligence: Autonomous Agents in the Age of AI
-(Version 4.0) [Hebrew]. https://github.com/rmisegal/hebrew-ai-agents-memory-book
+(Version 5.0) [Hebrew]. https://github.com/rmisegal/hebrew-ai-agents-memory-book
 ```
 
 **BibTeX:**
@@ -477,10 +563,10 @@ Segal, Y. (2025). Distributed Intelligence: Autonomous Agents in the Age of AI
   author={Segal, Yoram},
   year={2025},
   language={Hebrew},
-  version={4.0},
-  pages={55},
-  parts={2},
-  chapters={13},
+  version={5.0},
+  pages={64},
+  parts={3},
+  chapters={16},
   url={https://github.com/rmisegal/hebrew-ai-agents-memory-book}
 }
 ```
@@ -577,16 +663,16 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 ## 📈 Statistics
 
 - **Total Lines of Code**: 15,000+
-- **LaTeX Source Files**: 27+ (13 chapters + 6 appendices + supporting files)
+- **LaTeX Source Files**: 30+ (16 chapters + 6 appendices + supporting files)
 - **Python Code Examples**: 6 complete implementations
-- **Parts**: 2
-- **Chapters**: 13
+- **Parts**: 3
+- **Chapters**: 16
 - **Appendices**: 6
-- **Bibliography Entries**: 31
-- **Development Time**: 10 phases, 200+ tasks
-- **Compilation Tests**: 30+ successful builds
-- **PDF Size**: 570KB
-- **Pages**: 55 (publication-ready)
+- **Bibliography Entries**: 46
+- **Development Time**: 12 phases, 500+ tasks
+- **Compilation Tests**: 40+ successful builds
+- **PDF Size**: 585KB
+- **Pages**: 64 (publication-ready)
 
 ---
 
