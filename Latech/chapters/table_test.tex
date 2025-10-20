@@ -1,0 +1,61 @@
+% Table Test File: RAG vs Long Context LLMs Comparison
+% Created: October 20, 2025
+% Purpose: Test CLS-compliant table conversion from PDF Section 3.2.3
+% Status: Isolated test file (will be integrated into Chapter 9 later)
+
+\documentclass{../hebrew-academic-template}
+
+\begin{document}
+
+\hebrewsection{בדיקת טבלה: השוואה \en{RAG} לעומת \en{Long Context LLMs}}
+
+% Test table with 4 rows extracted from PDF pages 4-5
+\begin{hebrewtable}[H]
+\caption{השוואה: \en{RAG} לעומת \en{Long Context LLMs}}
+\centering
+\begin{rtltabular}{|m{3cm}|m{5.5cm}|m{5.5cm}|}
+\hline
+\textbf{\hebheader{מאפיין}} &
+\textbf{\enheader{Retrieval-Augmented Generation (RAG)}} &
+\textbf{\enheader{Long Context LLMs (LC-LLMs)}} \\
+\hline
+
+% Row 1: מקור ידע (Knowledge Source)
+\hebcell{מקור ידע} &
+\hebcell{לא-פרמטרי, חיצוני, נתונים דינמיים (מסד נתונים וקטורי/גרף).} &
+\hebcell{פרמטרי (משקולות מאומנות) + חלון הקשר גדול (נתוני \en{In-Context}).} \\
+\hline
+
+% Row 2: סקיילביליות (Scalability)
+\hebcell{סקיילביליות} &
+\hebcell{גבוהה במיוחד (טריליוני אסימונים); סקיילביליות בלתי תלויה בגודל המודל.} &
+\hebcell{מוגבלת על ידי מורכבות ה\en{-Attention}; מוגבלת למקסימום חלון ההקשר הנוכחי.} \\
+\hline
+
+% Row 3: עלות ויעילות (Cost and Efficiency)
+\hebcell{עלות ויעילות} &
+\hebcell{חסכוני מאוד באמצעות אחזור סלקטיבי; משתמש במשאבים ביעילות.} &
+\hebcell{דרישות חישוביות גבוהות לעיבוד חלון ההקשר הגדול כולו בכל שאילתה.} \\
+\hline
+
+% Row 4: התאמה לנתונים (Data Suitability)
+\hebcell{התאמה לנתונים} &
+\hebcell{מצטיין בנתונים מקוטעים, דינמיים, מיוחדים או דלילים (למשל, מאגרי קוד, דיאלוג).} &
+\hebcell{מתאים יותר להקשרים צפופים, מובנים היטב ועקביים (למשל, ספרים, מסמכים מובנים).} \\
+\hline
+
+\end{rtltabular}
+\end{hebrewtable}
+
+\vspace{1em}
+
+\textbf{הערות בדיקה:}
+\begin{itemize}
+\item הטבלה משתמשת ב\en{-\texttt{m\{width\}}} לכל העמודות (יישור אנכי מרכזי)
+\item עמודות כתובות בסדר \en{RTL} (ימין לשמאל)
+\item כל תא משתמש ב\en{-\texttt{\textbackslash hebcell\{\}}} עם \en{\texttt{\textbackslash en\{\}}} למונחים באנגלית
+\item אין שימוש ב\en{-\texttt{\textbackslash textenglish\{\}}} או \en{\texttt{\textbackslash texthebrew\{\}}} (אסור!)
+\item ראשי עמודות: \en{\texttt{\textbackslash hebheader\{\}}} לעברית, \en{\texttt{\textbackslash enheader\{\}}} לאנגלית
+\end{itemize}
+
+\end{document}

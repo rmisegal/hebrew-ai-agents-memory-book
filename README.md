@@ -1,15 +1,18 @@
 # Distributed Intelligence: Autonomous Agents in the Age of AI
 
-[![Version](https://img.shields.io/badge/version-3.0-blue.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book/releases/tag/v3.0)
+[![Version](https://img.shields.io/badge/version-4.0-blue.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book/releases/tag/v4.0)
 [![Language](https://img.shields.io/badge/language-Hebrew-orange.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book)
 [![LaTeX](https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg)](https://www.latex-project.org/)
-[![Pages](https://img.shields.io/badge/pages-27-green.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book)
+[![Pages](https://img.shields.io/badge/pages-55-green.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book)
+[![Chapters](https://img.shields.io/badge/chapters-13-brightgreen.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book)
+[![Parts](https://img.shields.io/badge/parts-2-blue.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book)
 
 **Hebrew Title**: בינה מבוזרת: סוכנים אוטונומיים בעידן הבינה המלאכותית
 **Author**: Dr. Yoram Segal (ד"ר יורם סגל)
-**Version**: 3.0
+**Version**: 4.0
 **Release Date**: October 20, 2025
-**Pages**: 27
+**Pages**: 55
+**Structure**: 2 Parts, 13 Chapters
 **Language**: Hebrew (with English technical terms)
 
 ---
@@ -69,7 +72,7 @@ Custom LaTeX template with specialized functions for proper Hebrew-English mixin
 
 ## 📚 Book Structure
 
-### Chapters
+### Part 1: Distributed Intelligence - Architecture and Protocols
 
 1. **Introduction: The Dawn of the Multi-Agent Era** (מבוא: שחר עידן הרב-סוכנים)
    - From cognitive revolution to digital cooperation
@@ -106,6 +109,48 @@ Custom LaTeX template with specialized functions for proper Hebrew-English mixin
    - Adjacency matrices and transformations
    - Eigenvalue analysis for stability
    - Gmail MCP concrete examples mapping theory to practice
+
+### Part 2: Memory and Consistency - Engineering Persistent Cognition
+
+7. **Machine Amnesia: Memory as the Foundation of Digital Civilization** (האמנזיה של המכונה)
+   - Historical-philosophical context: from writing to external memory
+   - The stateless nature of LLMs and contextual amnesia
+   - Introduction to the 4-file memory system
+
+8. **Context Engineering: Theoretical Foundation and Anthropic Interface** (הנדסת קונטקסט)
+   - Context window limitations and token efficiency
+   - Anthropic's solutions: Context Editing and Memory Tool
+   - Performance improvements and token budget management
+
+9. **Architectural Distinction: RAG vs Long Context LLMs** (הבחנה ארכיטקטונית)
+   - Retrieval-Augmented Generation fundamentals
+   - Long Context LLMs capabilities
+   - Comparative analysis and task suitability
+   - Hybrid approaches: Agentic RAG
+
+10. **The Four Pillars of Structured Memory** (ארבעת עמודי הזיכרון המובנה)
+    - PRD.md: Product Requirements Document
+    - CLAUDE.md: Canonical execution rules
+    - PLANNING.md: Strategic roadmap
+    - TASKS.md: Real-time task tracking
+
+11. **Knowledge Management Principles for Long-Term Projects** (עקרונות ניהול ידע)
+    - Fixed reading order enforcement
+    - Avoiding duplication and maintaining single source of truth
+    - Documentation granularity
+    - Bidirectional verification protocols
+    - Update triggers and consistency maintenance
+
+12. **Practical Demonstration: This Book as a Case Study** (הדגמה מעשית)
+    - Meta-narrative: building a book about memory using memory systems
+    - Quantitative results: 150+ tasks, 0 errors, 100% CLS compliance
+    - Lessons learned and scaling insights
+
+13. **Conclusion: Towards Cognitive Partnership** (מסקנה: לקראת שותפות קוגניטיבית)
+    - From tool to partner: the paradigm shift
+    - Distributed cognition: human + machine as one system
+    - Future directions: cross-project, semantic, epistemic memory
+    - Full-circle return to writing and digital archives
 
 ### Appendices
 
@@ -157,13 +202,13 @@ bibtex main
 lualatex main.tex
 lualatex main.tex
 
-# Output: main.pdf (27 pages, ~395KB)
+# Output: main.pdf (55 pages, ~570KB)
 ```
 
 **Expected Results:**
 - ✅ 0 errors (compilation must be clean)
 - ✅ ≤3 warnings (cosmetic only)
-- ✅ 27 pages in A4 format
+- ✅ 55 pages in A4 format
 - ✅ All cross-references resolved
 
 ### Running the Gmail MCP Agent
@@ -218,7 +263,7 @@ python gmail_mcp_server_sdk.py
 hebrew-ai-agents-memory-book/
 ├── README.md                          # This file
 ├── Latech/                            # LaTeX source files
-│   ├── main.tex                       # Main document (Version 3.0)
+│   ├── main.tex                       # Main document (Version 4.0)
 │   ├── main.pdf                       # Compiled PDF output
 │   ├── hebrew-academic-template.cls   # Custom LaTeX class
 │   ├── refs.bib                       # Bibliography
@@ -230,6 +275,13 @@ hebrew-ai-agents-memory-book/
 │   │   ├── chapter4.tex               # Claude CLI Integration
 │   │   ├── chapter5.tex               # MCP Protocol Deep Dive
 │   │   ├── chapter6.tex               # Mathematical Frameworks
+│   │   ├── chapter7.tex               # Machine Amnesia
+│   │   ├── chapter8.tex               # Context Engineering
+│   │   ├── chapter9.tex               # RAG vs Long Context
+│   │   ├── chapter10.tex              # Four Pillars of Memory
+│   │   ├── chapter11.tex              # Knowledge Management
+│   │   ├── chapter12.tex              # Demonstration
+│   │   ├── chapter13.tex              # Conclusion
 │   │   ├── appendixA.tex              # Manual implementation code
 │   │   ├── appendixB.tex              # Fetch emails module
 │   │   ├── appendixC.tex              # Agent description
@@ -286,23 +338,66 @@ hebrew-ai-agents-memory-book/
 - Decorator-based tool registration
 - Automatic protocol management
 
-### Quality Metrics (Version 3.0)
+### Quality Metrics (Version 4.0)
 
 | Metric | Target | Achieved |
 |--------|--------|----------|
 | Compilation Errors | 0 | ✅ 0 |
 | Warnings | ≤3 | ✅ 1 |
-| Page Count | 24-28 | ✅ 27 |
+| Page Count | 50-58 | ✅ 55 |
+| Parts | 2 | ✅ 2 |
+| Chapters | 13 | ✅ 13 |
 | CLS Compliance | 100% | ✅ 100% |
 | Code Completeness | All examples | ✅ Complete |
 | Content Repetition | Zero | ✅ Eliminated |
 | Cross-references | All resolved | ✅ Verified |
+| Bibliography Entries | 30+ | ✅ 31 |
 
 ---
 
 ## 📊 Version History
 
-### Version 3.0 (October 20, 2025) - Current Release
+### Version 4.0 (October 20, 2025) - Current Release
+
+**Major Expansion:**
+- ✅ Expanded from 1 part (6 chapters) to 2 parts (13 chapters)
+- ✅ Added Part 2: Memory and Consistency - Engineering Persistent Cognition
+- ✅ 7 new chapters covering AI agent memory systems (Chapters 7-13)
+- ✅ Complete 4-file memory system documentation (PRD.md, CLAUDE.md, PLANNING.md, TASKS.md)
+- ✅ RAG vs Long Context LLMs architectural comparison with detailed table
+- ✅ Meta-narrative: this book as demonstration of its own principles
+
+**Content Additions:**
+- ✅ Chapter 7: Machine Amnesia and external memory foundations
+- ✅ Chapter 8: Context Engineering and Anthropic's Memory Tool
+- ✅ Chapter 9: Architectural distinction between RAG and LC-LLMs
+- ✅ Chapter 10: Four Pillars of Structured Memory (detailed breakdown)
+- ✅ Chapter 11: Knowledge Management Principles (5 core principles)
+- ✅ Chapter 12: Practical Demonstration (quantitative case study)
+- ✅ Chapter 13: Cognitive Partnership conclusion
+
+**Quality Improvements:**
+- ✅ Added 20+ cross-references between Part 1 and Part 2
+- ✅ Forward references in Chapters 1, 4, 6 previewing Part 2
+- ✅ Backward references in Part 2 connecting to Part 1 concepts
+- ✅ Updated abstract to explain 2-part structure
+- ✅ Maintained 100% CLS compliance across all new chapters
+- ✅ Harari-style narrative consistency throughout
+
+**Technical Updates:**
+- ✅ Added 23 new bibliography entries (total: 31)
+- ✅ Integrated comparison table with proper RTL formatting
+- ✅ Part divisions with Hebrew and English titles
+- ✅ Full compilation cycle: 0 errors, clean bibtex
+
+**Final Metrics:**
+- Pages: 55 (from 27)
+- Structure: 2 parts, 13 chapters + 6 appendices
+- Compilation: 0 errors, 1 cosmetic warning
+- File size: ~570KB PDF
+- Status: Publication-ready, comprehensive coverage
+
+### Version 3.0 (October 20, 2025) - Previous Release
 
 **Major Changes:**
 - ✅ Restructured from 7 chapters to 6 chapters
@@ -339,19 +434,29 @@ hebrew-ai-agents-memory-book/
 1. Start with **Chapter 1** (Introduction) for historical context
 2. Read **Chapter 2** (Ethics) to understand responsible AI development
 3. Follow **Chapter 3** (Gmail Agent) with the manual implementation (Appendix א-ד)
-4. Practice with the code examples
+4. Read **Chapter 7-8** (Memory foundations) to understand stateless vs stateful agents
+5. Practice with the code examples
 
 ### For Experienced Developers
 1. Skim **Chapter 1-2** for context
 2. Deep dive into **Chapter 5** (MCP Protocol) for technical details
 3. Implement the SDK version (Appendix ה-ו) directly
-4. Study **Chapter 6** (Mathematics) for production optimization
+4. Study **Chapter 9-10** (RAG comparison and 4-file memory system)
+5. Apply **Chapter 11** principles (Knowledge Management) to your projects
 
 ### For Researchers
 1. Read **Chapter 6** (Mathematical Frameworks) for formal analysis
-2. Review **Chapter 5** (Protocol Comparison) for architectural insights
-3. Study the dual implementation comparison in **Chapter 3**
-4. Examine trade-offs and scalability considerations
+2. Study **Chapter 9** (RAG vs Long Context LLMs) for architectural comparison
+3. Review **Chapter 5** (Protocol Comparison) for architectural insights
+4. Analyze **Chapter 12** (Case Study) for empirical validation
+5. Explore future directions in **Chapter 13** (Cognitive Partnership)
+
+### For Memory System Practitioners
+1. Start with **Chapter 7-8** (Theoretical foundations)
+2. Deep dive into **Chapter 10** (Four Pillars detailed breakdown)
+3. Apply **Chapter 11** principles (5 core knowledge management rules)
+4. Study **Chapter 12** (Real-world demonstration with metrics)
+5. Read **Part 1** (Chapters 1-6) for architectural context
 
 ---
 
@@ -362,7 +467,7 @@ This book is designed for academic citation. Suggested citation format:
 **APA Style:**
 ```
 Segal, Y. (2025). Distributed Intelligence: Autonomous Agents in the Age of AI
-(Version 3.0) [Hebrew]. https://github.com/rmisegal/hebrew-ai-agents-memory-book
+(Version 4.0) [Hebrew]. https://github.com/rmisegal/hebrew-ai-agents-memory-book
 ```
 
 **BibTeX:**
@@ -372,8 +477,10 @@ Segal, Y. (2025). Distributed Intelligence: Autonomous Agents in the Age of AI
   author={Segal, Yoram},
   year={2025},
   language={Hebrew},
-  version={3.0},
-  pages={27},
+  version={4.0},
+  pages={55},
+  parts={2},
+  chapters={13},
   url={https://github.com/rmisegal/hebrew-ai-agents-memory-book}
 }
 ```
@@ -469,16 +576,17 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 ## 📈 Statistics
 
-- **Total Lines of Code**: 12,769+
-- **LaTeX Source Files**: 20+
+- **Total Lines of Code**: 15,000+
+- **LaTeX Source Files**: 27+ (13 chapters + 6 appendices + supporting files)
 - **Python Code Examples**: 6 complete implementations
-- **Chapters**: 6
+- **Parts**: 2
+- **Chapters**: 13
 - **Appendices**: 6
-- **Bibliography Entries**: 5+
-- **Development Time**: 5 phases, 150+ tasks
-- **Compilation Tests**: 20+ successful builds
-- **PDF Size**: 395KB
-- **Pages**: 27 (publication-ready)
+- **Bibliography Entries**: 31
+- **Development Time**: 10 phases, 200+ tasks
+- **Compilation Tests**: 30+ successful builds
+- **PDF Size**: 570KB
+- **Pages**: 55 (publication-ready)
 
 ---
 

@@ -5,7 +5,7 @@
 \englishtitle{Distributed Intelligence: Autonomous Agents in the Age of AI}
 \author{ד"ר יורם סגל}
 \date{\hebyear{2025}}
-\newcommand{\version}{\en{Version 3.0}}
+\newcommand{\version}{\en{Version 4.0}}
 \maketitle
 \vspace{-1em}
 \begin{center}
@@ -18,10 +18,13 @@
 \fancyfoot[LO]{\en{©} \en{Dr. Yoram Segal} - כל הזכויות שמורות - \version}
 
 \begin{abstract}
-בעשור האחרון אנו עדים למעבר מפרדיגמת בינה מלאכותית יחידה למערכות המורכבות מצוות של סוכנים מתמחים. ספר זה בוחן לעומק שינוי פרדיגמה זה, ומשלב דיון היסטורי-פילוסופי עם ניתוח תאורטי-מתמטי ברמת מחקר מתקדמת. נסקור את ארכיטקטורת הקוגניציה המבוזרת (תת-סוכנים) וכיצד פלטפורמות דוגמת \textbf{\en{Claude CLI}} ופרוטוקול \textbf{\en{MCP}} מאפשרים שיתוף פעולה חלק בין סוכנים מרובים. נעסוק גם בהיבטי אתיקה, פרטיות וסיכונים הכרוכים בסוכני \en{AI}, ונדגים את הדיון באמצעות מקרה מבחן מעשי – סוכן לחילוץ מידע מ\en{-Gmail}. הספר מציג \textbf{שני מסלולי יישום}: גישה ידנית מלאה (נספחים א–ד) המלמדת את יסודות הפרוטוקול, וגישה מבוססת \en{MCP Python SDK} (נספחים ה–ו, דורשת \en{Python 3.10+}) המציעה פיתוח מהיר יותר. שילוב זה של פרספקטיבה בין-תחומית, עומק טכני ומימוש מעשי כפול נועד להעניק לקורא הבנה רחבה ומעמיקה של הדור החדש של סוכני הבינה המלאכותית.
+בעשור האחרון אנו עדים למעבר מפרדיגמת בינה מלאכותית יחידה למערכות המורכבות מצוות של סוכנים מתמחים. ספר זה בוחן לעומק שינוי פרדיגמה זה במבנה של שני חלקים משלימים: \textbf{חלק א'} עוסק בארכיטקטורת הקוגניציה המבוזרת (תת-סוכנים) וכיצד פלטפורמות דוגמת \en{Claude CLI} ופרוטוקול \en{MCP} מאפשרים שיתוף פעולה חלק בין סוכנים מרובים. \textbf{חלק ב'} עובר לממד הקוגניטיבי: כיצד סוכנים שומרים על זיכרון, עקביות ורציפות לאורך זמן באמצעות מערכות זיכרון חיצוניות מובנות. נעסוק גם בהיבטי אתיקה, פרטיות וסיכונים הכרוכים בסוכני \en{AI}, ונדגים את הדיון באמצעות מקרה מבחן מעשי – סוכן לחילוץ מידע מ\en{-Gmail}. הספר מציג \textbf{שני מסלולי יישום}: גישה ידנית מלאה (נספחים א–ד) המלמדת את יסודות הפרוטוקול, וגישה מבוססת \en{MCP Python SDK} (נספחים ה–ו, דורשת \en{Python 3.10+}) המציעה פיתוח מהיר יותר. שילוב זה של פרספקטיבה בין-תחומית, עומק טכני, דיון היסטורי-פילוסופי וניתוח מתמטי ברמת מחקר מתקדמת, נועד להעניק לקורא הבנה רחבה ומעמיקה של הדור החדש של סוכני הבינה המלאכותית – מארכיטקטורה לזיכרון, ומכלי רגעי לשותפות קוגניטיבית ארוכת-טווח.
 \end{abstract}
 
 \tableofcontents
+
+\part{בינה מבוזרת - ארכיטקטורה ופרוטוקולים}
+% Part 1: Distributed Intelligence - Architecture and Protocols
 
 \include{chapters/chapter1}
 \include{chapters/chapter2}
@@ -29,6 +32,17 @@
 \include{chapters/chapter4}
 \include{chapters/chapter5}
 \include{chapters/chapter6}
+
+\part{זיכרון ועקביות - מהנדסת קוגניציה מתמשכת}
+% Part 2: Memory and Consistency - Engineering Persistent Cognition
+
+\include{chapters/chapter7}
+\include{chapters/chapter8}
+\include{chapters/chapter9}
+\include{chapters/chapter10}
+\include{chapters/chapter11}
+\include{chapters/chapter12}
+\include{chapters/chapter13}
 
 \clearpage
 \include{chapters/appendixA}

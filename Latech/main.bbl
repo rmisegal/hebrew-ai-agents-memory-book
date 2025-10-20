@@ -112,5 +112,183 @@
     \endverb
     \field{year}{2025}
   \endentry
+
+  \entry{zhang2024kragen}{article}{}{}
+    \name{author}{8}{}{%
+      {{hash=ZY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Yingcheng},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=GC}{%
+         family={Gao},
+         familyi={G\bibinitperiod},
+         given={Chao},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Honghao},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=XY}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Yemin},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=QJ}{%
+         family={Quan},
+         familyi={Q\bibinitperiod},
+         given={Jiakai},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZW}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=PW}{%
+         family={Pu},
+         familyi={P\bibinitperiod},
+         given={Wenyu},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=LX}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={Xin},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \keyw{english}
+    \strng{namehash}{ZY+1}
+    \strng{fullhash}{ZYGCLHXYQJZWPWLX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1093/bioinformatics/btae353
+    \endverb
+    \field{number}{6}
+    \field{pages}{btae353}
+    \field{title}{{KRAGEN}: A Knowledge Graph-Enhanced {RAG} Framework for
+  Biomedical Problem Solving Using Large Language Models}
+    \field{volume}{40}
+    \field{journaltitle}{Bioinformatics}
+    \field{year}{2024}
+  \endentry
+
+  \entry{wang2023filco}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=WZ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Zhiruo},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=AJ}{%
+         family={Araki},
+         familyi={A\bibinitperiod},
+         given={Jun},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=JZ}{%
+         family={Jiang},
+         familyi={J\bibinitperiod},
+         given={Zhengbao},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=NG}{%
+         family={Neubig},
+         familyi={N\bibinitperiod},
+         given={Graham},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \keyw{english}
+    \strng{namehash}{WZ+1}
+    \strng{fullhash}{WZAJJZNG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb 2311.08377
+    \endverb
+    \field{note}{Preprint}
+    \field{title}{Learning to Filter Context for Retrieval-Augmented
+  Generation}
+    \field{journaltitle}{arXiv preprint}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CL}
+    \field{year}{2023}
+  \endentry
+
+  \entry{liu2023lost}{article}{}{}
+    \name{author}{7}{}{%
+      {{hash=LNF}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Nelson\bibnamedelima F.},
+         giveni={N\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=LK}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={Kevin},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Hewitt},
+         familyi={H\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Paranjape},
+         familyi={P\bibinitperiod},
+         given={Ashwin},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bevilacqua},
+         familyi={B\bibinitperiod},
+         given={Michele},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PF}{%
+         family={Petroni},
+         familyi={P\bibinitperiod},
+         given={Fabio},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Liang},
+         familyi={L\bibinitperiod},
+         given={Percy},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \keyw{english}
+    \strng{namehash}{LNF+1}
+    \strng{fullhash}{LNFLKHJPABMPFLP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1162/tacl\_a\_00638
+    \endverb
+    \verb{eprint}
+    \verb 2307.03172
+    \endverb
+    \field{pages}{157\bibrangedash 173}
+    \field{title}{Lost in the Middle: How Language Models Use Long Contexts}
+    \field{volume}{12}
+    \field{journaltitle}{Transactions of the Association for Computational
+  Linguistics}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CL}
+    \field{year}{2023}
+  \endentry
 \enddatalist
 \endinput
