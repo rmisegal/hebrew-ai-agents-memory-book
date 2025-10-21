@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.10.14)  21 OCT 2025 13:08
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.10.14)  21 OCT 2025 13:28
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -2643,9 +2643,6 @@ L3 programming layer <2025-08-13>
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 30B1E6C8395DF37B7C5AF5AB20187150;37538.
 
@@ -2685,7 +2682,7 @@ nts/cm/cmr8.pfb><C:/Users/gal-t/AppData/Local/Programs/MiKTeX/fonts/type1/public
 1/public/amsfonts/cm/cmsy8.pfb><C:/Users/gal-t/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/gal-t/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (88 pages, 769768 bytes).
+Output written on main.pdf (88 pages, 769799 bytes).
 
 PDF statistics: 1109 PDF objects out of 1200 (max. 8388607)
  257 named destinations out of 1000 (max. 131072)

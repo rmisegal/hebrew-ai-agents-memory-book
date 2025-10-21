@@ -1,6 +1,6 @@
 # Distributed Intelligence: Autonomous Agents in the Age of AI
 
-[![Version](https://img.shields.io/badge/version-7.0-blue.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book/releases/tag/v7.0)
+[![Version](https://img.shields.io/badge/version-8.0-blue.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book/releases/tag/v8.0)
 [![Language](https://img.shields.io/badge/language-Hebrew-orange.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book)
 [![LaTeX](https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg)](https://www.latex-project.org/)
 [![Pages](https://img.shields.io/badge/pages-88-green.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book)
@@ -10,7 +10,7 @@
 
 **Hebrew Title**: בינה מבוזרת: סוכנים אוטונומיים בעידן הבינה המלאכותית
 **Author**: Dr. Yoram Segal (ד"ר יורם סגל)
-**Version**: 7.0
+**Version**: 8.0
 **Release Date**: October 21, 2025
 **Pages**: 88
 **Structure**: 4 Parts, 20 Chapters, 6 Appendices
