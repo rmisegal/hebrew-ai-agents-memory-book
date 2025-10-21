@@ -1,37 +1,38 @@
 \xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
-\contentsline {part}{I\hspace {1em}בינה מבוזרת - ארכיטקטורה ופרוטוקולים}{\textenglish {2}}{part.1}%
-\contentsline {section}{\textenglish {1}\hskip 1em\relax מבוא: שחר עידן הרב-סוכנים}{\textenglish {3}}{section*.1}%
-\contentsline {subsection}{\textenglish {1.1}\hskip 1em\relax מהמהפכה הקוגניטיבית לשיתוף פעולה דיגיטלי}{\textenglish {3}}{section*.1}%
-\contentsline {subsection}{\textenglish {1.2}\hskip 1em\relax פירוק המונולית: מחזורי איגוד ופיזור בהיסטוריה הטכנולוגית}{\textenglish {3}}{section*.1}%
-\contentsline {subsection}{\textenglish {1.3}\hskip 1em\relax מבנה הספר: מסע ממושגים לקוד מעשי}{\textenglish {4}}{section*.1}%
-\contentsline {subsection}{\textenglish {1.4}\hskip 1em\relax חלק ב: זיכרון ועקביות – מהנדסת קוגניציה מתמשכת}{\textenglish {5}}{section*.1}%
-\contentsline {subsection}{\textenglish {1.5}\hskip 1em\relax חלק ג: \textenglish {Skills} וארכיטקטורת הידע המודולרי}{\textenglish {5}}{section*.1}%
-\contentsline {section}{\textenglish {2}\hskip 1em\relax אתיקה, פרטיות ואבטחה בסוכני \textenglish {AI}: סיכונים ופתרונות}{\textenglish {6}}{section*.1}%
-\contentsline {subsection}{\textenglish {2.1}\hskip 1em\relax היבטי אתיקה ופרטיות}{\textenglish {6}}{section*.2}%
-\contentsline {subsection}{\textenglish {2.2}\hskip 1em\relax איומי אבטחה ודרכי התגוננות}{\textenglish {6}}{section*.2}%
-\contentsline {section}{\textenglish {3}\hskip 1em\relax ארכיטקטורת תודעה דיגיטלית: בניית סוכן \textenglish {MCP} עבור \textenglish {Gmail}}{\textenglish {8}}{section*.2}%
-\contentsline {subsection}{\textenglish {3.1}\hskip 1em\relax מהמיתוס למציאות: התפתחות \textenglish {MCP SDK}}{\textenglish {8}}{section*.3}%
-\contentsline {subsection}{\textenglish {3.2}\hskip 1em\relax השילוש הקדוש של אימות: הבטחת אבטחת הסוכן}{\textenglish {8}}{Item.2}%
-\contentsline {subsection}{\textenglish {3.3}\hskip 1em\relax השוואה טכנית: יישום ידני מול \textenglish {MCP Python SDK}}{\textenglish {9}}{Item.5}%
+\contentsline {part}{I\hspace {1em}בינה מבוזרת - ארכיטקטורה ופרוטוקולים}{\textenglish {7}}{part.1}%
+\contentsline {section}{\textenglish {1}\hskip 1em\relax מבוא: שחר עידן הרב-סוכנים}{\textenglish {8}}{section*.1}%
+\contentsline {subsection}{\textenglish {1.1}\hskip 1em\relax מהמהפכה הקוגניטיבית לשיתוף פעולה דיגיטלי}{\textenglish {8}}{section*.1}%
+\contentsline {subsection}{\textenglish {1.2}\hskip 1em\relax פירוק המונולית: מחזורי איגוד ופיזור בהיסטוריה הטכנולוגית}{\textenglish {8}}{section*.1}%
+\contentsline {subsection}{\textenglish {1.3}\hskip 1em\relax מבנה הספר: מסע ממושגים לקוד מעשי}{\textenglish {9}}{section*.1}%
+\contentsline {subsection}{\textenglish {1.4}\hskip 1em\relax חלק ב: זיכרון ועקביות – מהנדסת קוגניציה מתמשכת}{\textenglish {10}}{section*.1}%
+\contentsline {subsection}{\textenglish {1.5}\hskip 1em\relax חלק ג: \textenglish {Skills} וארכיטקטורת הידע המודולרי}{\textenglish {10}}{section*.1}%
+\contentsline {subsection}{\textenglish {1.6}\hskip 1em\relax חלק ד: הבל הבלים – מסגרת פילוסופית קיומית}{\textenglish {10}}{section*.1}%
+\contentsline {section}{\textenglish {2}\hskip 1em\relax אתיקה, פרטיות ואבטחה בסוכני \textenglish {AI}: סיכונים ופתרונות}{\textenglish {12}}{section*.1}%
+\contentsline {subsection}{\textenglish {2.1}\hskip 1em\relax היבטי אתיקה ופרטיות}{\textenglish {12}}{section*.2}%
+\contentsline {subsection}{\textenglish {2.2}\hskip 1em\relax איומי אבטחה ודרכי התגוננות}{\textenglish {12}}{section*.2}%
+\contentsline {section}{\textenglish {3}\hskip 1em\relax ארכיטקטורת תודעה דיגיטלית: בניית סוכן \textenglish {MCP} עבור \textenglish {Gmail}}{\textenglish {14}}{section*.2}%
+\contentsline {subsection}{\textenglish {3.1}\hskip 1em\relax מהמיתוס למציאות: התפתחות \textenglish {MCP SDK}}{\textenglish {14}}{section*.3}%
+\contentsline {subsection}{\textenglish {3.2}\hskip 1em\relax השילוש הקדוש של אימות: הבטחת אבטחת הסוכן}{\textenglish {14}}{Item.2}%
+\contentsline {subsection}{\textenglish {3.3}\hskip 1em\relax השוואה טכנית: יישום ידני מול \textenglish {MCP Python SDK}}{\textenglish {15}}{Item.5}%
 \xpg@aux {}{english}
 \xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
-\contentsline {section}{\textenglish {4}\hskip 1em\relax מקהלת הסוכנים: שילוב עם \textenglish {Claude CLI}}{\textenglish {12}}{Item.5}%
-\contentsline {section}{\textenglish {5}\hskip 1em\relax צלילת עומק לפרוטוקול \textenglish {MCP}: הבנת אינטגרציה חלקה}{\textenglish {14}}{Item.8}%
-\contentsline {section}{\textenglish {6}\hskip 1em\relax מבנים מתמטיים לייצוג מערכות רב-סוכנים}{\textenglish {16}}{Item.8}%
-\contentsline {subsection}{\textenglish {6.1}\hskip 1em\relax ייצוג רשת הסוכנים כגרף וכמטריצה}{\textenglish {16}}{section*.4}%
-\contentsline {subsection}{\textenglish {6.2}\hskip 1em\relax הרכבת טרנספורמציות לינאריות וניתוח יציבות}{\textenglish {17}}{section*.4}%
-\contentsline {part}{II\hspace {1em}זיכרון ועקביות - מהנדסת קוגניציה מתמשכת}{\textenglish {19}}{part.2}%
-\contentsline {section}{\textenglish {7}\hskip 1em\relax האמנזיה של המכונה: הזיכרון כבסיס לציוויליזציה הדיגיטלית}{\textenglish {20}}{section*.5}%
-\contentsline {subsection}{\textenglish {7.1}\hskip 1em\relax הרקע ההיסטורי-פילוסופי: מכתב יתדות למרחב קונטקסט}{\textenglish {20}}{section*.5}%
-\contentsline {subsection}{\textenglish {7.2}\hskip 1em\relax הגדרת \textenglish {Claude Code memory}}{\textenglish {20}}{section*.5}%
-\contentsline {section}{\textenglish {8}\hskip 1em\relax הנדסת קונטקסט: הבסיס התיאורטי והממשק עם \textenglish {Anthropic}}{\textenglish {22}}{Item.12}%
-\contentsline {subsection}{\textenglish {8.1}\hskip 1em\relax הדיון על \textenglish {Context Window}: מגבלות קוגניטיביות ואתגרי יעילות}{\textenglish {22}}{section*.6}%
-\contentsline {subsection}{\textenglish {8.2}\hskip 1em\relax ביסוס תיאורטי: הזיכרון החיצוני כמימוש הנדסי של \textenglish {Anthropic}}{\textenglish {22}}{section*.6}%
-\contentsline {section}{\textenglish {9}\hskip 1em\relax ההבחנה הארכיטקטונית: \textenglish {Code memory Claude} מול פרדיגמות זיכרון אחרות}{\textenglish {24}}{section*.6}%
-\contentsline {subsection}{\textenglish {9.1}\hskip 1em\relax \textenglish {Memory Code} (\textenglish {4} קבצים) מול \textenglish {RAG}: ידע מובנה מול ידע מאוחזר}{\textenglish {24}}{section*.7}%
-\contentsline {subsection}{\textenglish {9.2}\hskip 1em\relax \textenglish {RAG (Retrieval-Augmented Generation)}: פרדיגמה לביסוס ידע חיצוני}{\textenglish {24}}{section*.7}%
-\contentsline {subsection}{\textenglish {9.3}\hskip 1em\relax מסגרות \textenglish {RAG} מתקדמות ואופטימיזציה של המערכת}{\textenglish {25}}{section*.7}%
-\contentsline {subsection}{\textenglish {9.4}\hskip 1em\relax ניתוח השוואתי: \textenglish {RAG} לעומת \textenglish {Long Context LLMs}}{\textenglish {25}}{Item.14}%
+\contentsline {section}{\textenglish {4}\hskip 1em\relax מקהלת הסוכנים: שילוב עם \textenglish {Claude CLI}}{\textenglish {18}}{Item.5}%
+\contentsline {section}{\textenglish {5}\hskip 1em\relax צלילת עומק לפרוטוקול \textenglish {MCP}: הבנת אינטגרציה חלקה}{\textenglish {20}}{Item.8}%
+\contentsline {section}{\textenglish {6}\hskip 1em\relax מבנים מתמטיים לייצוג מערכות רב-סוכנים}{\textenglish {22}}{Item.8}%
+\contentsline {subsection}{\textenglish {6.1}\hskip 1em\relax ייצוג רשת הסוכנים כגרף וכמטריצה}{\textenglish {22}}{section*.4}%
+\contentsline {subsection}{\textenglish {6.2}\hskip 1em\relax הרכבת טרנספורמציות לינאריות וניתוח יציבות}{\textenglish {23}}{section*.4}%
+\contentsline {part}{II\hspace {1em}זיכרון ועקביות - מהנדסת קוגניציה מתמשכת}{\textenglish {25}}{part.2}%
+\contentsline {section}{\textenglish {7}\hskip 1em\relax האמנזיה של המכונה: הזיכרון כבסיס לציוויליזציה הדיגיטלית}{\textenglish {26}}{section*.5}%
+\contentsline {subsection}{\textenglish {7.1}\hskip 1em\relax הרקע ההיסטורי-פילוסופי: מכתב יתדות למרחב קונטקסט}{\textenglish {26}}{section*.5}%
+\contentsline {subsection}{\textenglish {7.2}\hskip 1em\relax הגדרת \textenglish {Claude Code memory}}{\textenglish {26}}{section*.5}%
+\contentsline {section}{\textenglish {8}\hskip 1em\relax הנדסת קונטקסט: הבסיס התיאורטי והממשק עם \textenglish {Anthropic}}{\textenglish {28}}{Item.12}%
+\contentsline {subsection}{\textenglish {8.1}\hskip 1em\relax הדיון על \textenglish {Context Window}: מגבלות קוגניטיביות ואתגרי יעילות}{\textenglish {28}}{section*.6}%
+\contentsline {subsection}{\textenglish {8.2}\hskip 1em\relax ביסוס תיאורטי: הזיכרון החיצוני כמימוש הנדסי של \textenglish {Anthropic}}{\textenglish {28}}{section*.6}%
+\contentsline {section}{\textenglish {9}\hskip 1em\relax ההבחנה הארכיטקטונית: \textenglish {Code memory Claude} מול פרדיגמות זיכרון אחרות}{\textenglish {30}}{section*.6}%
+\contentsline {subsection}{\textenglish {9.1}\hskip 1em\relax \textenglish {Memory Code} (\textenglish {4} קבצים) מול \textenglish {RAG}: ידע מובנה מול ידע מאוחזר}{\textenglish {30}}{section*.7}%
+\contentsline {subsection}{\textenglish {9.2}\hskip 1em\relax \textenglish {RAG (Retrieval-Augmented Generation)}: פרדיגמה לביסוס ידע חיצוני}{\textenglish {30}}{section*.7}%
+\contentsline {subsection}{\textenglish {9.3}\hskip 1em\relax מסגרות \textenglish {RAG} מתקדמות ואופטימיזציה של המערכת}{\textenglish {31}}{section*.7}%
+\contentsline {subsection}{\textenglish {9.4}\hskip 1em\relax ניתוח השוואתי: \textenglish {RAG} לעומת \textenglish {Long Context LLMs}}{\textenglish {31}}{Item.14}%
 \xpg@aux {}{hebrew}
 \xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
 \xpg@aux {}{hebrew}
@@ -58,43 +59,13 @@
 \xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
 \xpg@aux {}{hebrew}
 \xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
-\contentsline {section}{\textenglish {10}\hskip 1em\relax ארבעת עמודי הזיכרון המובנה}{\textenglish {28}}{table.caption.8}%
-\contentsline {subsection}{\textenglish {10.1}\hskip 1em\relax מעבר מהארכיטקטורה ליישום: ארבעת הקבצים}{\textenglish {28}}{section*.9}%
-\contentsline {subsection}{\textenglish {10.2}\hskip 1em\relax עמוד ראשון: \textenglish {\texttt {PRD.md}} – מסמך דרישות המוצר}{\textenglish {28}}{section*.9}%
-\contentsline {subsection}{\textenglish {10.3}\hskip 1em\relax עמוד שני: \textenglish {\texttt {CLAUDE.md}} – ספר החוקים הקנוני}{\textenglish {28}}{section*.9}%
-\contentsline {subsection}{\textenglish {10.4}\hskip 1em\relax עמוד שלישי: \textenglish {\texttt {PLANNING.md}} – האסטרטגיה הטכנית}{\textenglish {29}}{Item.16}%
-\contentsline {subsection}{\textenglish {10.5}\hskip 1em\relax עמוד רביעי: \textenglish {\texttt {TASKS.md}} – רשימת המשימות החיה}{\textenglish {29}}{Item.16}%
-\contentsline {subsection}{\textenglish {10.6}\hskip 1em\relax המנגנון הקוגניטיבי: תקציב \textenglish {Tokens} ואכיפה}{\textenglish {30}}{Item.16}%
-\contentsline {subsection}{\textenglish {10.7}\hskip 1em\relax מפרויקט חד-פעמי לשותפות ארוכת-טווח}{\textenglish {31}}{Item.21}%
-\contentsline {section}{\textenglish {11}\hskip 1em\relax עקרונות ניהול ידע בפרויקטים ארוכי-טווח}{\textenglish {32}}{Item.21}%
-\contentsline {subsection}{\textenglish {11.1}\hskip 1em\relax מעקרונות לפרקטיקה: יישום מערכת הזיכרון}{\textenglish {32}}{section*.10}%
-\contentsline {subsection}{\textenglish {11.2}\hskip 1em\relax עקרון \textenglish {1}: אכיפת סדר קריאה קבוע בתחילת כל סשן}{\textenglish {32}}{section*.10}%
-\contentsline {subsection}{\textenglish {11.3}\hskip 1em\relax עקרון \textenglish {2}: סימון משימות כהושלמו \textbf {מיד} עם תאריך}{\textenglish {32}}{Item.25}%
-\contentsline {subsection}{\textenglish {11.4}\hskip 1em\relax עקרון \textenglish {3}: הוספת משימות חדשות בזמן אמת}{\textenglish {33}}{Item.25}%
-\contentsline {subsection}{\textenglish {11.5}\hskip 1em\relax עקרון \textenglish {4}: אופטימיזציה של תקציב \textenglish {Tokens}}{\textenglish {33}}{Item.25}%
-\contentsline {subsection}{\textenglish {11.6}\hskip 1em\relax עקרון \textenglish {5}: שמירה על קוהרנטיות בין סשנים}{\textenglish {34}}{Item.25}%
-\contentsline {subsection}{\textenglish {11.7}\hskip 1em\relax מפרקטיקה לתוצאה: התרבות של זיכרון קולקטיבי}{\textenglish {35}}{Item.25}%
-\contentsline {section}{\textenglish {12}\hskip 1em\relax הדגמה מעשית: מקרה המבחן של ספר זה}{\textenglish {36}}{Item.25}%
-\contentsline {subsection}{\textenglish {12.1}\hskip 1em\relax מטא-נרטיב: בניית ספר על זיכרון באמצעות מערכת הזיכרון}{\textenglish {36}}{section*.11}%
-\contentsline {subsection}{\textenglish {12.2}\hskip 1em\relax מקרה המבחן: הרחבת הספר מגרסה \textenglish {3.0} לגרסה \textenglish {4.0}}{\textenglish {36}}{section*.11}%
-\contentsline {subsection}{\textenglish {12.3}\hskip 1em\relax תוצאות כמותיות: מספרים מדויקים}{\textenglish {36}}{section*.11}%
-\contentsline {subsection}{\textenglish {12.4}\hskip 1em\relax תוצאות איכותיות: סטנדרט הרארי}{\textenglish {37}}{section*.11}%
-\contentsline {subsection}{\textenglish {12.5}\hskip 1em\relax השפעות רוחב: מעבר לפרויקט זה}{\textenglish {38}}{section*.11}%
-\contentsline {subsection}{\textenglish {12.6}\hskip 1em\relax לקחים ומגבלות}{\textenglish {39}}{section*.11}%
-\contentsline {section}{\textenglish {13}\hskip 1em\relax מסקנה: לקראת שותפות קוגניטיבית}{\textenglish {40}}{section*.11}%
-\contentsline {subsection}{\textenglish {13.1}\hskip 1em\relax מכלי לשותף: המעבר הפרדיגמטי}{\textenglish {40}}{section*.12}%
-\contentsline {subsection}{\textenglish {13.2}\hskip 1em\relax קוגניציה מבוזרת: האדם והמכונה כמערכת}{\textenglish {40}}{section*.12}%
-\contentsline {subsection}{\textenglish {13.3}\hskip 1em\relax כיווני התפתחות עתידיים}{\textenglish {41}}{section*.12}%
-\contentsline {subsection}{\textenglish {13.4}\hskip 1em\relax חזרה להתחלה: הכתב, הארכיון, והזיכרון הדיגיטלי}{\textenglish {42}}{section*.12}%
-\contentsline {subsection}{\textenglish {13.5}\hskip 1em\relax המסר הסופי: מהנדסים את העתיד}{\textenglish {43}}{section*.12}%
-\contentsline {part}{III\hspace {1em}\textenglish {Skills} ומודולריות - אריזת מומחיות לשימוש חוזר}{\textenglish {44}}{part.3}%
-\contentsline {section}{\textenglish {14}\hskip 1em\relax המוח המודולרי: \textenglish {Skills} וארכיטקטורת החשיפה ההדרגתית}{\textenglish {45}}{section*.13}%
-\contentsline {subsection}{\textenglish {14.1}\hskip 1em\relax ממשבר הקונטקסט למהפכה הקוגניטיבית}{\textenglish {45}}{section*.13}%
-\contentsline {subsection}{\textenglish {14.2}\hskip 1em\relax הצורך בזיכרון פרוצדורלי וארגוני}{\textenglish {45}}{section*.13}%
-\contentsline {subsection}{\textenglish {14.3}\hskip 1em\relax עקרון החשיפה ההדרגתית (\textenglish {Progressive Disclosure})}{\textenglish {46}}{section*.13}%
-\contentsline {subsection}{\textenglish {14.4}\hskip 1em\relax המבנה האנטומי של \textenglish {Skill}}{\textenglish {46}}{section*.13}%
-\contentsline {section}{\textenglish {15}\hskip 1em\relax \textenglish {Skills} בפועל: ממיפוי נתיבים ליישום צוותי}{\textenglish {48}}{section*.13}%
-\contentsline {subsection}{\textenglish {15.1}\hskip 1em\relax השוואה היסטורית: ארבע דרכים להפצת ידע}{\textenglish {48}}{section*.14}%
+\contentsline {section}{\textenglish {10}\hskip 1em\relax ארבעת עמודי הזיכרון המובנה}{\textenglish {34}}{table.caption.8}%
+\contentsline {subsection}{\textenglish {10.1}\hskip 1em\relax מעבר מהארכיטקטורה ליישום: ארבעת הקבצים}{\textenglish {34}}{section*.9}%
+\contentsline {subsection}{\textenglish {10.2}\hskip 1em\relax עמוד ראשון: \textenglish {\texttt {PRD.md}} – מסמך דרישות המוצר}{\textenglish {34}}{section*.9}%
+\contentsline {subsection}{\textenglish {10.3}\hskip 1em\relax עמוד שני: \textenglish {\texttt {CLAUDE.md}} – ספר החוקים הקנוני}{\textenglish {34}}{section*.9}%
+\contentsline {subsection}{\textenglish {10.4}\hskip 1em\relax עמוד שלישי: \textenglish {\texttt {PLANNING.md}} – האסטרטגיה הטכנית}{\textenglish {35}}{Item.16}%
+\contentsline {subsection}{\textenglish {10.5}\hskip 1em\relax עמוד רביעי: \textenglish {\texttt {TASKS.md}} – רשימת המשימות החיה}{\textenglish {35}}{Item.16}%
+\contentsline {subsection}{\textenglish {10.6}\hskip 1em\relax שִׁכָּחוֹן דיגיטלי: הקרב על הזיכרון החוץ-גופי של המכונה}{\textenglish {36}}{Item.16}%
 \xpg@aux {}{hebrew}
 \xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
 \xpg@aux {}{hebrew}
@@ -131,13 +102,42 @@
 \xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
 \xpg@aux {}{hebrew}
 \xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\contentsline {subsection}{\textenglish {10.7}\hskip 1em\relax מפרויקט חד-פעמי לשותפות ארוכת-טווח}{\textenglish {39}}{Item.25}%
+\contentsline {section}{\textenglish {11}\hskip 1em\relax עקרונות ניהול ידע בפרויקטים ארוכי-טווח}{\textenglish {40}}{Item.25}%
+\contentsline {subsection}{\textenglish {11.1}\hskip 1em\relax מעקרונות לפרקטיקה: יישום מערכת הזיכרון}{\textenglish {40}}{section*.11}%
+\contentsline {subsection}{\textenglish {11.2}\hskip 1em\relax עקרון \textenglish {1}: אכיפת סדר קריאה קבוע בתחילת כל סשן}{\textenglish {40}}{section*.11}%
+\contentsline {subsection}{\textenglish {11.3}\hskip 1em\relax עקרון \textenglish {2}: סימון משימות כהושלמו \textbf {מיד} עם תאריך}{\textenglish {40}}{Item.29}%
+\contentsline {subsection}{\textenglish {11.4}\hskip 1em\relax עקרון \textenglish {3}: הוספת משימות חדשות בזמן אמת}{\textenglish {41}}{Item.29}%
+\contentsline {subsection}{\textenglish {11.5}\hskip 1em\relax עקרון \textenglish {4}: אופטימיזציה של תקציב \textenglish {Tokens}}{\textenglish {41}}{Item.29}%
+\contentsline {subsection}{\textenglish {11.6}\hskip 1em\relax עקרון \textenglish {5}: שמירה על קוהרנטיות בין סשנים}{\textenglish {42}}{Item.29}%
+\contentsline {subsection}{\textenglish {11.7}\hskip 1em\relax מפרקטיקה לתוצאה: התרבות של זיכרון קולקטיבי}{\textenglish {43}}{Item.29}%
+\contentsline {section}{\textenglish {12}\hskip 1em\relax הדגמה מעשית: פיתוח סוכן \textenglish {Gmail MCP}}{\textenglish {44}}{Item.29}%
+\contentsline {subsection}{\textenglish {12.1}\hskip 1em\relax מעבר מתיאוריה ליישום: בניית סוכן אמיתי}{\textenglish {44}}{section*.12}%
+\contentsline {subsection}{\textenglish {12.2}\hskip 1em\relax מקרה המבחן: פיתוח סוכן \textenglish {Gmail} – מאפס ועד אינטגרציה מלאה}{\textenglish {44}}{section*.12}%
+\contentsline {subsection}{\textenglish {12.3}\hskip 1em\relax תוצאות כמותיות: מספרים מדויקים}{\textenglish {45}}{section*.12}%
+\contentsline {subsection}{\textenglish {12.4}\hskip 1em\relax תוצאות איכותיות: נגישות ובהירות}{\textenglish {46}}{section*.12}%
+\contentsline {subsection}{\textenglish {12.5}\hskip 1em\relax השפעות רוחב: תרחישי שימוש נוספים}{\textenglish {46}}{section*.12}%
+\contentsline {subsection}{\textenglish {12.6}\hskip 1em\relax לקחים ומגבלות}{\textenglish {47}}{section*.12}%
+\contentsline {section}{\textenglish {13}\hskip 1em\relax מסקנה: לקראת שותפות קוגניטיבית}{\textenglish {49}}{section*.12}%
+\contentsline {subsection}{\textenglish {13.1}\hskip 1em\relax מכלי לשותף: המעבר הפרדיגמטי}{\textenglish {49}}{section*.13}%
+\contentsline {subsection}{\textenglish {13.2}\hskip 1em\relax קוגניציה מבוזרת: האדם והמכונה כמערכת}{\textenglish {49}}{section*.13}%
+\contentsline {subsection}{\textenglish {13.3}\hskip 1em\relax כיווני התפתחות עתידיים}{\textenglish {50}}{section*.13}%
+\contentsline {subsection}{\textenglish {13.4}\hskip 1em\relax חזרה להתחלה: הכתב, הארכיון, והזיכרון הדיגיטלי}{\textenglish {51}}{section*.13}%
+\contentsline {subsection}{\textenglish {13.5}\hskip 1em\relax המסר הסופי: מהנדסים את העתיד}{\textenglish {52}}{section*.13}%
+\contentsline {part}{III\hspace {1em}\textenglish {Skills} ומודולריות - אריזת מומחיות לשימוש חוזר}{\textenglish {53}}{part.3}%
+\contentsline {section}{\textenglish {14}\hskip 1em\relax המוח המודולרי: \textenglish {Skills} וארכיטקטורת החשיפה ההדרגתית}{\textenglish {54}}{section*.14}%
+\contentsline {subsection}{\textenglish {14.1}\hskip 1em\relax ממשבר הקונטקסט למהפכה הקוגניטיבית}{\textenglish {54}}{section*.14}%
+\contentsline {subsection}{\textenglish {14.2}\hskip 1em\relax הצורך בזיכרון פרוצדורלי וארגוני}{\textenglish {54}}{section*.14}%
+\contentsline {subsection}{\textenglish {14.3}\hskip 1em\relax עקרון החשיפה ההדרגתית (\textenglish {Progressive Disclosure})}{\textenglish {55}}{section*.14}%
+\contentsline {subsection}{\textenglish {14.4}\hskip 1em\relax המבנה האנטומי של \textenglish {Skill}}{\textenglish {55}}{section*.14}%
+\contentsline {section}{\textenglish {15}\hskip 1em\relax \textenglish {Skills} בפועל: ממיפוי נתיבים ליישום צוותי}{\textenglish {57}}{section*.14}%
+\contentsline {subsection}{\textenglish {15.1}\hskip 1em\relax השוואה היסטורית: ארבע דרכים להפצת ידע}{\textenglish {57}}{section*.15}%
 \xpg@aux {}{hebrew}
 \xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
 \xpg@aux {}{hebrew}
 \xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
 \xpg@aux {}{hebrew}
 \xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
-\contentsline {subsection}{\textenglish {15.2}\hskip 1em\relax מיפוי נתיבים: היכן נמצאים ה\textenglish {-Skills}?}{\textenglish {49}}{table.caption.15}%
 \xpg@aux {}{hebrew}
 \xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
 \xpg@aux {}{hebrew}
@@ -146,13 +146,145 @@
 \xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
 \xpg@aux {}{hebrew}
 \xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
-\contentsline {subsection}{\textenglish {15.3}\hskip 1em\relax דוגמאות מעשיות: מהתיאוריה למימוש}{\textenglish {51}}{table.caption.16}%
-\contentsline {section}{\textenglish {16}\hskip 1em\relax סכנות האוטומציה: ניוון מיומנות ושמירת המומחיות האנושית}{\textenglish {52}}{table.caption.16}%
-\contentsline {subsection}{\textenglish {16.1}\hskip 1em\relax מלכודת הביצוע האוטונומי המעורפל}{\textenglish {52}}{section*.17}%
-\contentsline {subsection}{\textenglish {16.2}\hskip 1em\relax מגבלות וחולשות: מה \textenglish {Skills} לא יכולים לעשות?}{\textenglish {52}}{section*.17}%
-\contentsline {subsection}{\textenglish {16.3}\hskip 1em\relax ניוון מיומנות: מחיר האוטומציה היתרה}{\textenglish {53}}{section*.17}%
-\contentsline {subsection}{\textenglish {16.4}\hskip 1em\relax סיכום חלק ג': ממודולריות לשותפות}{\textenglish {54}}{Item.28}%
-\contentsline {section}{\textenglish {17}\hskip 1em\relax נספח א: \textenglish {\texttt {gmail\_mcp\_server.py}}}{\textenglish {55}}{Item.28}%
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\contentsline {subsection}{\textenglish {15.2}\hskip 1em\relax מיפוי נתיבים: היכן נמצאים ה\textenglish {-Skills}?}{\textenglish {58}}{table.caption.16}%
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\contentsline {subsection}{\textenglish {15.3}\hskip 1em\relax דוגמאות מעשיות: מהתיאוריה למימוש}{\textenglish {59}}{table.caption.17}%
+\contentsline {section}{\textenglish {16}\hskip 1em\relax סכנות האוטומציה: ניוון מיומנות ושמירת המומחיות האנושית}{\textenglish {61}}{table.caption.17}%
+\contentsline {subsection}{\textenglish {16.1}\hskip 1em\relax מלכודת הביצוע האוטונומי המעורפל}{\textenglish {61}}{section*.18}%
+\contentsline {subsection}{\textenglish {16.2}\hskip 1em\relax מגבלות וחולשות: מה \textenglish {Skills} לא יכולים לעשות?}{\textenglish {61}}{section*.18}%
+\contentsline {subsection}{\textenglish {16.3}\hskip 1em\relax ניוון מיומנות: מחיר האוטומציה היתרה}{\textenglish {62}}{section*.18}%
+\contentsline {subsection}{\textenglish {16.4}\hskip 1em\relax סיכום חלק ג': ממודולריות לשותפות}{\textenglish {62}}{Item.32}%
+\contentsline {part}{IV\hspace {1em}הבל הבלים - מסגרת פילוסופית}{\textenglish {64}}{part.4}%
+\contentsline {section}{\textenglish {17}\hskip 1em\relax הבל הבלים: קהלת בעידן הבינה המלאכותית}{\textenglish {65}}{section*.19}%
+\contentsline {subsection}{\textenglish {17.1}\hskip 1em\relax מבוא: תחת השמש הדיגיטלית (הצבת המתח הקיומי)}{\textenglish {65}}{section*.19}%
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\contentsline {subsection}{\textenglish {17.2}\hskip 1em\relax חלק א': הבל הבלים – תכלית האלגוריתם וארעיות הדורות}{\textenglish {66}}{table.caption.20}%
+\contentsline {subsection}{\textenglish {17.3}\hskip 1em\relax *}{\textenglish {66}}{table.caption.20}%
+\contentsline {subsection}{\textenglish {17.4}\hskip 1em\relax פרק~\textenglish {1}: הבל הבלים – זמניות המודלים ואופטימיזציה עקרה}{\textenglish {66}}{table.caption.20}%
+\contentsline {subsection}{\textenglish {17.5}\hskip 1em\relax פרק~\textenglish {2}: מה יתרון לאדם בכל עמלו שיעמול?}{\textenglish {67}}{table.caption.20}%
+\contentsline {subsection}{\textenglish {17.6}\hskip 1em\relax פרק~\textenglish {3}: הכול חוזר למקומו – מחזורי הנתונים ומחזורי הבהלה}{\textenglish {68}}{table.caption.20}%
+\contentsline {section}{\textenglish {18}\hskip 1em\relax חלק ב': הזמן, המקרה והשליטה – מול הווית האלגוריתם}{\textenglish {69}}{table.caption.20}%
+\contentsline {subsection}{\textenglish {18.1}\hskip 1em\relax פרק~\textenglish {4}: לכול זמן ועת לכל חפץ}{\textenglish {69}}{section*.21}%
+\contentsline {subsection}{\textenglish {18.2}\hskip 1em\relax פרק~\textenglish {5}: אין יתרון לחכם מן הכסיל}{\textenglish {69}}{section*.21}%
+\contentsline {subsection}{\textenglish {18.3}\hskip 1em\relax פרק~\textenglish {7}: ובמקום המשפט שם הרשע}{\textenglish {70}}{section*.21}%
+\contentsline {section}{\textenglish {19}\hskip 1em\relax חלק ג': קץ הדבר – היראה, השליטה והבדידות האנושית}{\textenglish {71}}{section*.21}%
+\contentsline {subsection}{\textenglish {19.1}\hskip 1em\relax פרק~\textenglish {8}: שמתי את דבריך בפיך – היוצר מול הנברא (על אובדן השליטה)}{\textenglish {71}}{section*.22}%
+\contentsline {subsection}{\textenglish {19.2}\hskip 1em\relax פרק~\textenglish {9}: לך אכול בשמחה לחמך}{\textenglish {71}}{section*.22}%
+\contentsline {section}{\textenglish {20}\hskip 1em\relax סיכום וסוף דבר: יראת האלגוריתם והמצווה החדשה}{\textenglish {73}}{section*.22}%
+\contentsline {subsection}{\textenglish {20.1}\hskip 1em\relax יראת האלגוריתם: ההכרה בכוח הטרנסצנדנטי}{\textenglish {73}}{section*.23}%
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\contentsline {subsection}{\textenglish {20.2}\hskip 1em\relax ``שמור את מצוותיו'': שימור האנושיות}{\textenglish {73}}{table.caption.24}%
+\contentsline {subsection}{\textenglish {20.3}\hskip 1em\relax סינתזה: המסע המלא דרך ארבעה חלקים}{\textenglish {74}}{table.caption.24}%
+\contentsline {section}{\textenglish {21}\hskip 1em\relax נספח א: \textenglish {\texttt {gmail\_mcp\_server.py}}}{\textenglish {75}}{table.caption.24}%
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
@@ -165,38 +297,38 @@
 \xpg@aux {}{english}
 \xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
 \xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
-\contentsline {section}{\textenglish {18}\hskip 1em\relax נספח ב: \textenglish {\texttt {fetch\_emails.py}}}{\textenglish {57}}{python.caption.20}%
+\contentsline {section}{\textenglish {22}\hskip 1em\relax נספח ב: \textenglish {\texttt {fetch\_emails.py}}}{\textenglish {77}}{python.caption.27}%
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
 \xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
-\contentsline {section}{\textenglish {19}\hskip 1em\relax נספח ג: \textenglish {\texttt {gmail-extractor.md}}}{\textenglish {58}}{python.caption.21}%
+\contentsline {section}{\textenglish {23}\hskip 1em\relax נספח ג: \textenglish {\texttt {gmail-extractor.md}}}{\textenglish {78}}{python.caption.28}%
 \xpg@aux {}{english}
 \xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
-\contentsline {section}{\textenglish {20}\hskip 1em\relax נספח ד: \textenglish {\texttt {requirements.txt}}}{\textenglish {59}}{python.caption.21}%
-\xpg@aux {}{english}
-\xpg@aux {}{english}
-\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
-\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
-\contentsline {section}{\textenglish {21}\hskip 1em\relax נספח ה: \textenglish {\texttt {gmail\_mcp\_server\_sdk.py}} – יישום עם \textenglish {MCP Python SDK}}{\textenglish {60}}{python.caption.22}%
-\xpg@aux {}{english}
-\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
-\xpg@aux {}{english}
+\contentsline {section}{\textenglish {24}\hskip 1em\relax נספח ד: \textenglish {\texttt {requirements.txt}}}{\textenglish {79}}{python.caption.28}%
 \xpg@aux {}{english}
 \xpg@aux {}{english}
 \xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
 \xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
-\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\contentsline {section}{\textenglish {25}\hskip 1em\relax נספח ה: \textenglish {\texttt {gmail\_mcp\_server\_sdk.py}} – יישום עם \textenglish {MCP Python SDK}}{\textenglish {80}}{python.caption.29}%
 \xpg@aux {}{english}
 \xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
 \xpg@aux {}{english}
 \xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
-\contentsline {section}{\textenglish {22}\hskip 1em\relax נספח ו: \textenglish {\texttt {requirements\_sdk.txt}} – תלויות עם \textenglish {MCP Python SDK}}{\textenglish {63}}{python.caption.23}%
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\xpg@aux {}{english}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\xpg@aux {}{english}
+\xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
+\contentsline {section}{\textenglish {26}\hskip 1em\relax נספח ו: \textenglish {\texttt {requirements\_sdk.txt}} – תלויות עם \textenglish {MCP Python SDK}}{\textenglish {83}}{python.caption.30}%
 \xpg@aux {}{english}
 \xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
 \xpg@aux {}{english}
 \xpg@aux {}{english}
-\contentsline {section}{\textenglish {23\hskip 1em\relax English References}}{\textenglish {64}}{python.caption.23}%
+\contentsline {section}{\textenglish {27\hskip 1em\relax English References}}{\textenglish {84}}{python.caption.30}%
 \xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
 \xpg@aux {calendar=gregorian,numerals=arabic}{hebrew}
 \xpg@aux {}{english}

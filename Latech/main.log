@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.10.14)  21 OCT 2025 00:23
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.10.14)  21 OCT 2025 10:48
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1465,10 +1465,18 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \@quotereset=\count532
 LaTeX Font Info:    Font shape `TU/DavidCLM(0)/m/n' will be
 (Font)              scaled to size 13.38995pt on input line 3.
-
-No file main.aux.
-
+ (./main.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux)
+(./chapters/chapter3.aux) (./chapters/chapter4.aux) (./chapters/chapter5.aux)
+(./chapters/chapter6.aux) (./chapters/chapter7.aux) (./chapters/chapter8.aux)
+(./chapters/chapter9.aux) (./chapters/chapter10.aux) (./chapters/chapter11.aux) (./chapters/chapter12.aux) (./chapters/chapter13.aux)
+(./chapters/chapter14.aux) (./chapters/chapter15.aux) (./chapters/chapter16.aux
+) (./chapters/chapter17.aux) (./chapters/chapter18.aux)
+(./chapters/chapter19.aux) (./chapters/chapter20.aux) (./chapters/appendixA.aux
+) (./chapters/appendixB.aux) (./chapters/appendixC.aux)
+(./chapters/appendixD.aux) (./chapters/appendixE.aux) (./chapters/appendixF.aux
+))
 \openout1 = main.aux
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
@@ -1631,6 +1639,7 @@ Package biblatex Info: ... file 'main.bbl' found.
 Package biblatex Info: Reference section=0 on input line 3.
 Package biblatex Info: Reference segment=0 on input line 3.
 Package hyperref Info: Link coloring ON on input line 3.
+ (./main.out) (./main.out)
 \@outlinefile=\write6
 
 \openout6 = main.out
@@ -1688,41 +1697,64 @@ LaTeX Font Info:    Font shape `TU/DavidCLM(0)/m/n' will be
 (Font)              scaled to size 12.21832pt on input line 20.
 LaTeX Font Info:    Font shape `TU/DavidCLM(0)/b/n' will be
 (Font)              scaled to size 12.06795pt on input line 20.
-LaTeX Font Info:    Font shape `TU/DavidCLM(0)/m/n' will be
-(Font)              scaled to size 19.28152pt on input line 34.
-LaTeX Font Info:    Font shape `TU/DavidCLM(0)/b/n' will be
-(Font)              scaled to size 19.04422pt on input line 34.
-
-No file main.toc.
-\tf@toc=\write7
-
-\openout7 = main.toc
-LaTeX Font Info:    Font shape `TU/DavidCLM(0)/b/n' will be
-(Font)              scaled to size 27.42017pt on input line 36.
 
 
 [2]
+LaTeX Font Info:    Font shape `TU/DavidCLM(0)/m/n' will be
+(Font)              scaled to size 19.28152pt on input line 37.
+LaTeX Font Info:    Font shape `TU/DavidCLM(0)/b/n' will be
+(Font)              scaled to size 19.04422pt on input line 37.
+ (./main.toc
+LaTeX Font Info:    Font shape `TU/DavidCLM(0)/b/n' will be
+(Font)              scaled to size 15.87018pt on input line 2.
+LaTeX Font Info:    Font shape `TU/DavidCLM(0)/b/n' will be
+(Font)              scaled to size 13.22516pt on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+
+(C:/Users/gal-t/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+
+(C:/Users/gal-t/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+[3]
+
+[4]
+
+[5])
+\tf@toc=\write7
+
+\openout7 = main.toc
+
+
+[6]
+LaTeX Font Info:    Font shape `TU/DavidCLM(0)/b/n' will be
+(Font)              scaled to size 27.42017pt on input line 40.
+
+
+[7]
 \openout2 = chapters/chapter1.aux
  (./chapters/chapter1.tex
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 1.
 
-LaTeX Font Info:    Font shape `TU/DavidCLM(0)/b/n' will be
-(Font)              scaled to size 15.87018pt on input line 3.
 LaTeX Font Info:    Font shape `TU/DavidCLM(0)/m/it' will be
 (Font)              scaled to size 13.38995pt on input line 6.
-LaTeX Font Info:    Font shape `TU/DavidCLM(0)/b/n' will be
-(Font)              scaled to size 13.22516pt on input line 6.
 
 
-[3
+[8
 
 ]
 
-[4])
+[9]
 
-[5]
+[10])
+
+[11]
 \openout2 = chapters/chapter2.aux
  (./chapters/chapter2.tex
 
@@ -1731,24 +1763,13 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 
 
 
-[6
+[12
 
 
 
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
+])
 
- (C:/Users/gal-t/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
-
-
-(C:/Users/gal-t/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
-
-[7]
+[13]
 \openout2 = chapters/chapter3.aux
  (./chapters/chapter3.tex
 
@@ -1757,37 +1778,37 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 
 
 
-[8
-
-
-
-]
-
-[9])
-
-[10]
-
-[11]
-\openout2 = chapters/chapter4.aux
- (./chapters/chapter4.tex)
-
-[12
-
-
-
-]
-
-[13]
-\openout2 = chapters/chapter5.aux
- (./chapters/chapter5.tex)
-
 [14
 
 
 
 ]
 
-[15]
+[15])
+
+[16]
+
+[17]
+\openout2 = chapters/chapter4.aux
+ (./chapters/chapter4.tex)
+
+[18
+
+
+
+]
+
+[19]
+\openout2 = chapters/chapter5.aux
+ (./chapters/chapter5.tex)
+
+[20
+
+
+
+]
+
+[21]
 \openout2 = chapters/chapter6.aux
  (./chapters/chapter6.tex
 
@@ -1816,7 +1837,7 @@ Missing character: There is no ← (U+2190) in font "name:David CLM:mode=harf;sc
 ript=hebr;language=dflt;+tlig;"!
 
 
-[16
+[22
 
 
 
@@ -1831,11 +1852,11 @@ Missing character: There is no ← (U+2190) in font "name:David CLM:mode=harf;sc
 ript=hebr;language=dflt;+tlig;"!
 ]
 
-[17])
+[23])
 
-[18]
+[24]
 
-[19
+[25
 
 
 ]
@@ -1847,11 +1868,11 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 
 
 
-[20
+[26
 
 ])
 
-[21]
+[27]
 \openout2 = chapters/chapter8.aux
  (./chapters/chapter8.tex
 
@@ -1860,13 +1881,13 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 
 )
 
-[22
+[28
 
 
 
 ]
 
-[23]
+[29]
 \openout2 = chapters/chapter9.aux
  (./chapters/chapter9.tex
 
@@ -1875,17 +1896,20 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 
 
 
-[24
+[30
 
 
 
 ]
 
-[25])
+[31]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[26]
 
-[27]
+
+[32])
+
+[33]
 \openout2 = chapters/chapter10.aux
  (./chapters/chapter10.tex
 
@@ -1894,7 +1918,7 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 
 
 
-[28
+[34
 
 
 
@@ -1927,7 +1951,9 @@ ctuationSpace=WordSpace,Renderer=Harfbuzz,Script=Hebrew].
 
 
 
-[29]
+[35]
+
+[36]
 Missing character: There is no → (U+2192) in font "name:David CLM:mode=harf;sc
 ript=hebr;language=dflt;+tlig;"!
 Missing character: There is no → (U+2192) in font "name:David CLM:mode=harf;sc
@@ -1950,7 +1976,7 @@ Missing character: There is no → (U+2192) in font "name:David CLM:mode=harf;sc
 ript=hebr;language=dflt;+tlig;"!
 
 
-[30
+[37
 Missing character: There is no → (U+2192) in font "name:David CLM:mode=harf;sc
 ript=hebr;language=dflt;+tlig;"!
 Missing character: There is no → (U+2192) in font "name:David CLM:mode=harf;sc
@@ -1961,9 +1987,11 @@ Missing character: There is no → (U+2192) in font "name:David CLM:mode=harf;sc
 ript=hebr;language=dflt;+tlig;"!
 Missing character: There is no → (U+2192) in font "name:David CLM:mode=harf;sc
 ript=hebr;language=dflt;+tlig;"!
-])
+]
 
-[31]
+[38])
+
+[39]
 \openout2 = chapters/chapter11.aux
  (./chapters/chapter11.tex
 
@@ -1972,7 +2000,7 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 
 
 
-[32
+[40
 
 
 
@@ -1991,7 +2019,7 @@ Missing character: There is no ← (U+2190) in font "name:David CLM:mode=harf;sc
 ript=hebr;language=dflt;+tlig;"!
 
 
-[33
+[41
 Missing character: There is no ← (U+2190) in font "name:David CLM:mode=harf;sc
 ript=hebr;language=dflt;+tlig;"!
 Missing character: There is no ← (U+2190) in font "name:David CLM:mode=harf;sc
@@ -2017,7 +2045,7 @@ Missing character: There is no ← (U+2190) in font "name:David CLM:mode=harf;sc
 ript=hebr;language=dflt;+tlig;"!
 
 
-[34
+[42
 Missing character: There is no ← (U+2190) in font "name:David CLM:mode=harf;sc
 ript=hebr;language=dflt;+tlig;"!
 Missing character: There is no ← (U+2190) in font "name:David CLM:mode=harf;sc
@@ -2028,7 +2056,7 @@ Missing character: There is no ← (U+2190) in font "name:David CLM:mode=harf;sc
 ript=hebr;language=dflt;+tlig;"!
 ])
 
-[35]
+[43]
 \openout2 = chapters/chapter12.aux
  (./chapters/chapter12.tex
 
@@ -2055,25 +2083,13 @@ Missing character: There is no → (U+2192) in font "name:David CLM:mode=harf;sc
 ript=hebr;language=dflt;+tlig;"!
 Missing character: There is no → (U+2192) in font "name:David CLM:mode=harf;sc
 ript=hebr;language=dflt;+tlig;"!
-Missing character: There is no → (U+2192) in font "name:David CLM:mode=harf;sc
-ript=hebr;language=dflt;+tlig;"!
-Missing character: There is no → (U+2192) in font "name:David CLM:mode=harf;sc
-ript=hebr;language=dflt;+tlig;"!
-Missing character: There is no → (U+2192) in font "name:David CLM:mode=harf;sc
-ript=hebr;language=dflt;+tlig;"!
-Missing character: There is no → (U+2192) in font "name:David CLM:mode=harf;sc
-ript=hebr;language=dflt;+tlig;"!
 
 
-[36
+[44
 
 
 
 
-Missing character: There is no → (U+2192) in font "name:David CLM:mode=harf;sc
-ript=hebr;language=dflt;+tlig;"!
-Missing character: There is no → (U+2192) in font "name:David CLM:mode=harf;sc
-ript=hebr;language=dflt;+tlig;"!
 Missing character: There is no → (U+2192) in font "name:David CLM:mode=harf;sc
 ript=hebr;language=dflt;+tlig;"!
 Missing character: There is no → (U+2192) in font "name:David CLM:mode=harf;sc
@@ -2085,39 +2101,14 @@ ript=hebr;language=dflt;+tlig;"!
 Missing character: There is no → (U+2192) in font "name:David CLM:mode=harf;sc
 ript=hebr;language=dflt;+tlig;"!
 ]
-Missing character: There is no ≤ (U+2264) in font "name:David CLM:mode=harf;sc
-ript=hebr;language=dflt;+tlig;"!
-Missing character: There is no ≤ (U+2264) in font "name:David CLM:mode=harf;sc
-ript=hebr;language=dflt;+tlig;"!
-Missing character: There is no × (U+00D7) in font "name:David CLM:mode=harf;scr
-ipt=hebr;language=dflt;+tlig;"!
-Missing character: There is no × (U+00D7) in font "name:David CLM:mode=harf;scr
-ipt=hebr;language=dflt;+tlig;"!
-Missing character: There is no → (U+2192) in font "name:David CLM:mode=harf;sc
-ript=hebr;language=dflt;+tlig;"!
-Missing character: There is no → (U+2192) in font "name:David CLM:mode=harf;sc
-ript=hebr;language=dflt;+tlig;"!
-Missing character: There is no → (U+2192) in font "name:David CLM:mode=harf;sc
-ript=hebr;language=dflt;+tlig;"!
-Missing character: There is no → (U+2192) in font "name:David CLM:mode=harf;sc
-ript=hebr;language=dflt;+tlig;"!
 
+[45]
 
-[37
-Missing character: There is no ≤ (U+2264) in font "name:David CLM:mode=harf;sc
-ript=hebr;language=dflt;+tlig;"!
-Missing character: There is no × (U+00D7) in font "name:David CLM:mode=harf;scr
-ipt=hebr;language=dflt;+tlig;"!
-Missing character: There is no → (U+2192) in font "name:David CLM:mode=harf;sc
-ript=hebr;language=dflt;+tlig;"!
-]
+[46])
 
-[38
-Missing character: There is no → (U+2192) in font "name:David CLM:mode=harf;sc
-ript=hebr;language=dflt;+tlig;"!
-])
+[47]
 
-[39]
+[48]
 \openout2 = chapters/chapter13.aux
  (./chapters/chapter13.tex
 
@@ -2126,7 +2117,7 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 
 
 
-[40
+[49
 
 
 
@@ -2149,7 +2140,7 @@ Missing character: There is no → (U+2192) in font "name:David CLM:mode=harf;sc
 ript=hebr;language=dflt;+tlig;"!
 
 
-[41
+[50
 Missing character: There is no → (U+2192) in font "name:David CLM:mode=harf;sc
 ript=hebr;language=dflt;+tlig;"!
 Missing character: There is no → (U+2192) in font "name:David CLM:mode=harf;sc
@@ -2160,11 +2151,11 @@ Missing character: There is no → (U+2192) in font "name:David CLM:mode=harf;sc
 ript=hebr;language=dflt;+tlig;"!
 ]
 
-[42])
+[51])
 
-[43]
+[52]
 
-[44
+[53
 
 
 ]
@@ -2175,86 +2166,34 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 1.
 
 
-LaTeX Warning: Citation 'harari2014sapiens' on page 45 undefined on input line 
-6.
-
-
-LaTeX Warning: Citation 'anthropic2025context' on page 45 undefined on input li
-ne 8.
-
-
-LaTeX Warning: Citation 'anthropic2025progressive' on page 45 undefined on inpu
-t line 10.
-
-
-LaTeX Warning: Citation 'anthropic2025skills' on page 45 undefined on input lin
-e 16.
-
-
-LaTeX Warning: Reference `sec:chapter10' on page \textenglish {45} undefined on
+LaTeX Warning: Reference `sec:chapter10' on page \textenglish {54} undefined on
  input line 18.
 
 
 
-[45
+[54
 
 ]
 
-LaTeX Warning: Citation 'anthropic2025progressive' on page 46 undefined on inpu
-t line 22.
-
-
-LaTeX Warning: Citation 'anthropic2025skillsbest' on page 46 undefined on input
- line 28.
-
-
-LaTeX Warning: Reference `sec:chapter8' on page \textenglish {46} undefined on 
+LaTeX Warning: Reference `sec:chapter8' on page \textenglish {55} undefined on 
 input line 34.
 
 
 
-[46]
+[55]
 
-LaTeX Warning: Citation 'anthropic2025invocation' on page 47 undefined on input
- line 61.
-
-
-LaTeX Warning: Citation 'anthropic2025claudecli' on page 47 undefined on input 
-line 67.
-
-
-Overfull \hbox (7.8362pt too wide) in paragraph at lines 67--68
-[]\TU/TimesNewRoman(1)/m/n/12 Skills \TU/DavidCLM(0)/m/n/12 מקבלים את 
-כוחם המלא בסביבת ה\TU/TimesNewRoman(1)/m/n/12 -CLI \TU/DavidCLM(
-0)/m/n/12 של \TU/TimesNewRoman(1)/m/n/12 Claude Code[]\TU/DavidCLM(0)/m/n/12 
-,
- []
-
-
-LaTeX Warning: Reference `sec:chapter4' on page \textenglish {47} undefined on 
+LaTeX Warning: Reference `sec:chapter4' on page \textenglish {56} undefined on 
 input line 69.
 
 )
 
-[47]
+[56]
 \openout2 = chapters/chapter15.aux
  (./chapters/chapter15.tex
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 4.
 
-
-LaTeX Warning: Reference `sec:chapter14' on page \textenglish {48} undefined on
- input line 8.
-
-
-LaTeX Warning: Citation 'anthropic2025projects' on page 48 undefined on input l
-ine 10.
-
-
-LaTeX Warning: Citation 'anthropic2025thrashing' on page 48 undefined on input 
-line 10.
-
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
 ipt=hebr;language=dflt;+tlig;"!
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
@@ -2264,16 +2203,8 @@ ipt=hebr;language=dflt;+tlig;"!
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
 ipt=hebr;language=dflt;+tlig;"!
 
-LaTeX Warning: Citation 'anthropic2024mcp' on page 48 undefined on input line 1
-4.
-
-
-LaTeX Warning: Reference `sec:chapter5' on page \textenglish {48} undefined on 
+LaTeX Warning: Reference `sec:chapter5' on page \textenglish {57} undefined on 
 input line 14.
-
-
-LaTeX Warning: Reference `tab:skills_comparison' on page \textenglish {48} unde
-fined on input line 16.
 
 
 Overfull \hbox (5.49486pt too wide) in paragraph at lines 22--59
@@ -2285,7 +2216,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[48
+[57
 
 
 
@@ -2295,14 +2226,6 @@ ipt=hebr;language=dflt;+tlig;"!
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
 ipt=hebr;language=dflt;+tlig;"!
 ]
-
-LaTeX Warning: Citation 'anthropic2025claudecli' on page 49 undefined on input 
-line 67.
-
-
-LaTeX Warning: Citation 'anthropic2025skillspaths' on page 49 undefined on inpu
-t line 67.
-
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
 ipt=hebr;language=dflt;+tlig;"!
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
@@ -2313,25 +2236,16 @@ Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
 ipt=hebr;language=dflt;+tlig;"!
 
 
-[49
+[58
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
 ipt=hebr;language=dflt;+tlig;"!
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
 ipt=hebr;language=dflt;+tlig;"!
 ]
-
-LaTeX Warning: Reference `tab:skills_paths' on page \textenglish {50} undefined
- on input line 73.
-
-
 Overfull \hbox (33.16608pt too wide) in paragraph at lines 89--89
 []\TU/DavidCLM(0)/m/n/12 /home/<user>/.claude/skills/
  []
 
-
-LaTeX Warning: Citation 'microsoft2023wsl' on page 50 undefined on input line 1
-01.
-
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
 ipt=hebr;language=dflt;+tlig;"!
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
@@ -2365,12 +2279,8 @@ ipt=hebr;language=dflt;+tlig;"!
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
 ipt=hebr;language=dflt;+tlig;"!
 
-LaTeX Warning: Citation 'anthropic2025skillsexamples' on page 50 undefined on i
-nput line 114.
 
-
-
-[50
+[59
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
 ipt=hebr;language=dflt;+tlig;"!
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
@@ -2388,15 +2298,9 @@ ipt=hebr;language=dflt;+tlig;"!
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
 ipt=hebr;language=dflt;+tlig;"!
 ]
-Overfull \hbox (42.83206pt too wide) in paragraph at lines 125--125
- []  \TU/CourierNew(1)/m/n/12 including fixtures, pytest integration, and covera
-ge reporting.[] 
- []
-
-
-Overfull \hbox (28.42972pt too wide) in paragraph at lines 129--129
- []\TU/CourierNew(1)/m/n/12 Run `pytest --cov=app` with fixture files in `tests/
-fixtures/`.[] 
+Overfull \hbox (12.83206pt too wide) in paragraph at lines 125--125
+[]  \TU/CourierNew(1)/m/n/12 including fixtures, pytest integration, and coverag
+e reporting.[] 
  []
 
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
@@ -2424,12 +2328,12 @@ ipt=hebr;language=dflt;+tlig;"!
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
 ipt=hebr;language=dflt;+tlig;"!
 
-LaTeX Warning: Reference `sec:chapter10' on page \textenglish {51} undefined on
+LaTeX Warning: Reference `sec:chapter10' on page \textenglish {60} undefined on
  input line 141.
 
 )
 
-[51
+[60
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
 ipt=hebr;language=dflt;+tlig;"!
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
@@ -2449,14 +2353,6 @@ ipt=hebr;language=dflt;+tlig;"!
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 4.
 
-
-LaTeX Warning: Reference `sec:chapter14' on page \textenglish {52} undefined on
- input line 8.
-
-
-LaTeX Warning: Citation 'anthropic2025invocation' on page 52 undefined on input
- line 8.
-
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
 ipt=hebr;language=dflt;+tlig;"!
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
@@ -2482,7 +2378,7 @@ ipt=hebr;language=dflt;+tlig;"!
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
 ipt=hebr;language=dflt;+tlig;"!
 
-LaTeX Warning: Reference `sec:chapter11' on page \textenglish {52} undefined on
+LaTeX Warning: Reference `sec:chapter11' on page \textenglish {61} undefined on
  input line 12.
 
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
@@ -2494,7 +2390,7 @@ ipt=hebr;language=dflt;+tlig;"!
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
 ipt=hebr;language=dflt;+tlig;"!
 
-LaTeX Warning: Reference `sec:chapter5' on page \textenglish {52} undefined on 
+LaTeX Warning: Reference `sec:chapter5' on page \textenglish {61} undefined on 
 input line 20.
 
 Missing character: There is no ̈ (U+0308) in font "name:David CLM/B:mode=harf;s
@@ -2515,7 +2411,7 @@ Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
 ipt=hebr;language=dflt;+tlig;"!
 
 
-[52
+[61
 
 
 
@@ -2545,14 +2441,6 @@ ipt=hebr;language=dflt;+tlig;"!
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
 ipt=hebr;language=dflt;+tlig;"!
 ]
-
-LaTeX Warning: Citation 'anthropic2025atrophy' on page 53 undefined on input li
-ne 28.
-
-
-LaTeX Warning: Citation 'harari2014sapiens' on page 53 undefined on input line 
-32.
-
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
 ipt=hebr;language=dflt;+tlig;"!
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
@@ -2562,32 +2450,89 @@ ipt=hebr;language=dflt;+tlig;"!
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
 ipt=hebr;language=dflt;+tlig;"!
 
-LaTeX Warning: Reference `sec:chapter13' on page \textenglish {53} undefined on
+LaTeX Warning: Reference `sec:chapter13' on page \textenglish {62} undefined on
  input line 42.
 
 
 
-[53
+[62
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
 ipt=hebr;language=dflt;+tlig;"!
 Missing character: There is no ̈ (U+0308) in font "name:David CLM:mode=harf;scr
 ipt=hebr;language=dflt;+tlig;"!
+])
+
+[63]
+
+[64
+
+
+]
+\openout2 = chapters/chapter17.aux
+ (./chapters/chapter17.tex
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 1.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[65
+
 ]
 
-LaTeX Warning: Reference `sec:chapter14' on page \textenglish {54} undefined on
- input line 48.
+[66]
+
+[67])
+
+[68]
+\openout2 = chapters/chapter18.aux
+ (./chapters/chapter18.tex
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 4.
 
 
-LaTeX Warning: Reference `sec:chapter15' on page \textenglish {54} undefined on
- input line 50.
+
+[69
 
 
-LaTeX Warning: Reference `sec:chapter16' on page \textenglish {54} undefined on
- input line 52.
 
-)
+])
 
-[54]
+[70]
+\openout2 = chapters/chapter19.aux
+ (./chapters/chapter19.tex
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 4.
+
+
+
+[71
+
+
+
+])
+
+[72]
+\openout2 = chapters/chapter20.aux
+ (./chapters/chapter20.tex
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 6.
+
+
+
+[73
+
+
+
+])
+
+[74]
 \openout2 = chapters/appendixA.aux
  (./chapters/appendixA.tex
 \g__tcobox_out_iow=\write8
@@ -2603,20 +2548,20 @@ File: lstlang1.sty 2024/09/23 1.10c listings language file
 \openout8 = main.listing
  (./main.listing))
 
-[55
+[75
 
 
 
 
 ]
 
-[56]
+[76]
 \openout2 = chapters/appendixB.aux
  (./chapters/appendixB.tex
 \openout8 = main.listing
  (./main.listing))
 
-[57
+[77
 
 
 
@@ -2624,7 +2569,7 @@ File: lstlang1.sty 2024/09/23 1.10c listings language file
 \openout2 = chapters/appendixC.aux
  (./chapters/appendixC.tex)
 
-[58
+[78
 
 
 
@@ -2634,102 +2579,56 @@ File: lstlang1.sty 2024/09/23 1.10c listings language file
 \openout8 = main.listing
  (./main.listing))
 
-[59
+[79
 
 
 
 ]
 \openout2 = chapters/appendixE.aux
  (./chapters/appendixE.tex
-Overfull \hbox (14.02737pt too wide) in paragraph at lines 21--21
- []    \TU/CourierNew(0)/m/n/12 scopes=['https://www.googleapis.com/auth/gmail.r
-eadonly'][] 
- []
-
-
 \openout8 = main.listing
-(./main.listing)
-Overfull \hbox (6.8262pt too wide) in paragraph at lines 67--67
- []        \TU/CourierNew(0)/m/n/12 userId='me', q=query.strip(), maxResults=max
-_results[] 
- []
+ (./main.listing)
 
-
-Overfull \hbox (14.02737pt too wide) in paragraph at lines 77--77
- []    \TU/CourierNew(0)/m/n/12 output_file = f"csv/{label or 'emails'}_{start_d
-ate}.csv"[] 
- []
-
-
-
-[60
+[80
 
 
 
 ]
 
-[61]
-Overfull \hbox (6.8262pt too wide) in paragraph at lines 78--78
- []    \TU/CourierNew(0)/m/n/12 os.makedirs(os.path.dirname(output_file), exist_
-ok=True)[] 
- []
-
-
-Overfull \hbox (6.8262pt too wide) in paragraph at lines 87--87
- []            \TU/CourierNew(0)/m/n/12 msg_data = gmail_service.users().message
-s().get([] 
- []
-
-
-Overfull \hbox (21.22855pt too wide) in paragraph at lines 91--91
- []                      \TU/CourierNew(0)/m/n/12 for h in msg_data['payload']['
-headers']}[] 
- []
-
-
-Overfull \hbox (57.2344pt too wide) in paragraph at lines 99--99
- []        \TU/CourierNew(0)/m/n/12 "message": f"Successfully exported {len(mess
-ages)} emails",[] 
+[81]
+Overfull \hbox (27.2344pt too wide) in paragraph at lines 99--99
+[]        \TU/CourierNew(0)/m/n/12 "message": f"Successfully exported {len(messa
+ges)} emails",[] 
  []
 
 )
 
-[62]
+[82]
 \openout2 = chapters/appendixF.aux
  (./chapters/appendixF.tex)
 
-[63
+[83
 
 
 
 ]
 
-[64
+[84
 
 
 
 ]
 
-! LaTeX Error: \begin{itemize} on input line 109 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.75 \end{document}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-(./main.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux)
+[85] (./main.aux (./chapters/chapter1.aux) (./chapters/chapter2.aux)
 (./chapters/chapter3.aux) (./chapters/chapter4.aux) (./chapters/chapter5.aux)
 (./chapters/chapter6.aux) (./chapters/chapter7.aux) (./chapters/chapter8.aux)
 (./chapters/chapter9.aux) (./chapters/chapter10.aux) (./chapters/chapter11.aux) (./chapters/chapter12.aux) (./chapters/chapter13.aux)
 (./chapters/chapter14.aux) (./chapters/chapter15.aux) (./chapters/chapter16.aux
-) (./chapters/appendixA.aux) (./chapters/appendixB.aux)
-(./chapters/appendixC.aux) (./chapters/appendixD.aux) (./chapters/appendixE.aux
-) (./chapters/appendixF.aux))
+) (./chapters/chapter17.aux) (./chapters/chapter18.aux)
+(./chapters/chapter19.aux) (./chapters/chapter20.aux) (./chapters/appendixA.aux
+) (./chapters/appendixB.aux) (./chapters/appendixC.aux)
+(./chapters/appendixD.aux) (./chapters/appendixE.aux) (./chapters/appendixF.aux
+))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
@@ -2738,17 +2637,8 @@ L3 programming layer <2025-08-13>
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  EF9185752A807F72B1E7FF7FDE65D33F;29791.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 30B1E6C8395DF37B7C5AF5AB20187150;37538.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
@@ -2758,25 +2648,21 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 109 (\begingroup)
-### bottom level
 
 Here is how much of LuaTeX's memory you used:
- 41903 strings out of 470117
- 305531,1977958 words of node,token memory allocated
- 704 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 1 dir, 2 glue, 4 kern, 1 glyph, 10 attribute, 89 gl
-ue_spec, 10 attribute_list, 1 shape, 2 write, 1 pdf_action nodes
-   avail lists: 1:7,2:5196,3:757,4:98,5:7215,6:122,7:9665,8:48,9:14001,10:31,11:
-699
- 68846 multiletter control sequences out of 65536+600000
+ 42374 strings out of 470117
+ 305522,1977958 words of node,token memory allocated
+ 723 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 20 attribute, 76 glue_spec
+, 20 attribute_list, 2 write, 10 pdf_action nodes
+   avail lists: 1:9,2:5190,3:749,4:270,5:7212,6:115,7:9663,8:60,9:14000,10:35,11
+:699
+ 69036 multiletter control sequences out of 65536+600000
  124 fonts using 72617983 bytes
- 113i,12n,127p,1915b,5239s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 113i,12n,127p,1915b,3390s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/WINDOWS/Fonts/couri.ttf><C:/Users/gal-t/AppData/Local/Programs/MiKTeX/fonts/
-opentype/public/culmus/davidclm-mediumitalic.otf><C:/WINDOWS/Fonts/courbd.ttf><C
-:/WINDOWS/Fonts/timesi.ttf><C:/WINDOWS/Fonts/cour.ttf><C:/WINDOWS/Fonts/times.tt
+opentype/public/culmus/davidclm-mediumitalic.otf><C:/WINDOWS/Fonts/timesi.ttf><C
+:/WINDOWS/Fonts/courbd.ttf><C:/WINDOWS/Fonts/cour.ttf><C:/WINDOWS/Fonts/times.tt
 f><C:/Users/gal-t/AppData/Local/Programs/MiKTeX/fonts/opentype/public/culmus/dav
 idclm-medium.otf><C:/WINDOWS/Fonts/timesbd.ttf><C:/Users/gal-t/AppData/Local/Pro
 grams/MiKTeX/fonts/opentype/public/culmus/davidclm-bold.otf><C:/Users/gal-t/AppD
@@ -2790,9 +2676,9 @@ nts/cm/cmr8.pfb><C:/Users/gal-t/AppData/Local/Programs/MiKTeX/fonts/type1/public
 1/public/amsfonts/cm/cmsy8.pfb><C:/Users/gal-t/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/gal-t/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (64 pages, 585604 bytes).
+Output written on main.pdf (85 pages, 760997 bytes).
 
-PDF statistics: 537 PDF objects out of 1000 (max. 8388607)
- 209 named destinations out of 1000 (max. 131072)
- 16 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1096 PDF objects out of 1200 (max. 8388607)
+ 254 named destinations out of 1000 (max. 131072)
+ 832 words of extra memory for PDF output out of 10000 (max. 100000000)
 

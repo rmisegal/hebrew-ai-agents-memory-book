@@ -17,31 +17,6 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global/global}
-  \entry{Harari2018}{book}{}{}
-    \name{author}{1}{}{%
-      {{hash=HYN}{%
-         family={Harari},
-         familyi={H\bibinitperiod},
-         given={Yuval\bibnamedelima Noah},
-         giveni={Y\bibinitperiod\bibinitdelim N\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Spiegel \& Grau}%
-    }
-    \keyw{english}
-    \strng{namehash}{HYN1}
-    \strng{fullhash}{HYN1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{note}{ch.~20, pp.~310--335}
-    \field{title}{21 Lessons for the 21st Century}
-    \list{location}{1}{%
-      {New York}%
-    }
-    \field{year}{2018}
-  \endentry
-
   \entry{Hendrycks2024}{article}{}{}
     \name{author}{5}{}{%
       {{hash=HA}{%
@@ -289,6 +264,290 @@
     \field{eprinttype}{arXiv}
     \field{eprintclass}{cs.CL}
     \field{year}{2023}
+  \endentry
+
+  \entry{anthropic2025context}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{Anthropic}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \keyw{english}
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\emph{Anthropic News}}
+    \field{note}{Introduces Context Editing and Memory Tool; Online; accessed
+  Oct. 20, 2025}
+    \field{title}{Managing Context on the Claude Developer Platform}
+    \verb{url}
+    \verb https://www.anthropic.com/news/context-management
+    \endverb
+    \field{month}{01}
+    \field{year}{2025}
+  \endentry
+
+  \entry{anthropic2025progressive}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{Anthropic}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \keyw{english}
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\emph{Anthropic Engineering Blog}}
+    \field{note}{Online; accessed Oct. 20, 2025}
+    \field{title}{Progressive Disclosure in {AI} Agents: From Monolithic to
+  Modular Context}
+    \verb{url}
+    \verb https://www.anthropic.com/news/progressive-disclosure
+    \endverb
+    \field{month}{09}
+    \field{year}{2025}
+  \endentry
+
+  \entry{anthropic2025skills}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{Anthropic}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \keyw{english}
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\emph{Claude Code Documentation}}
+    \field{note}{Online; accessed Oct. 20, 2025}
+    \field{title}{Skills in {Claude Code}: Packaging Expertise for {AI} Agents}
+    \verb{url}
+    \verb https://docs.anthropic.com/claude-code/skills
+    \endverb
+    \field{month}{10}
+    \field{year}{2025}
+  \endentry
+
+  \entry{anthropic2025skillsbest}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{Anthropic}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \keyw{english}
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\emph{Claude Code Skills Guide}}
+    \field{note}{Online; accessed Oct. 20, 2025}
+    \field{title}{Best Practices for Writing Skills}
+    \verb{url}
+    \verb https://docs.anthropic.com/claude-code/skills/best-practices
+    \endverb
+    \field{year}{2025}
+  \endentry
+
+  \entry{anthropic2025invocation}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{Anthropic}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \keyw{english}
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\emph{Claude Code Technical Documentation}}
+    \field{note}{Online; accessed Oct. 20, 2025}
+    \field{title}{Autonomous Skill Invocation in {Claude Code}}
+    \verb{url}
+    \verb https://docs.anthropic.com/claude-code/skills/invocation
+    \endverb
+    \field{year}{2025}
+  \endentry
+
+  \entry{anthropic2025claudecli}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{Anthropic}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \keyw{english}
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\emph{Anthropic Documentation}}
+    \field{note}{Online; accessed Oct. 20, 2025}
+    \field{title}{{Claude Code} Command Line Interface}
+    \verb{url}
+    \verb https://docs.anthropic.com/claude-code
+    \endverb
+    \field{year}{2025}
+  \endentry
+
+  \entry{anthropic2025projects}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{Anthropic}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \keyw{english}
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\emph{Anthropic Product Documentation}}
+    \field{note}{Online; accessed Oct. 20, 2025}
+    \field{title}{{Claude Projects}: Large-Scale Context Management}
+    \verb{url}
+    \verb https://docs.anthropic.com/claude/projects
+    \endverb
+    \field{year}{2025}
+  \endentry
+
+  \entry{anthropic2025thrashing}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{Anthropic}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \keyw{english}
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\emph{Anthropic Technical Report}}
+    \field{note}{Online; accessed Oct. 20, 2025}
+    \field{title}{Thrashing in Large Language Models: When {AI} Repeats
+  Mistakes}
+    \verb{url}
+    \verb https://www.anthropic.com/research/llm-thrashing
+    \endverb
+    \field{month}{08}
+    \field{year}{2025}
+  \endentry
+
+  \entry{anthropic2024mcp}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{Anthropic}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \keyw{english}
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\emph{Anthropic News}}
+    \field{note}{Open standard for connecting AI assistants to data sources;
+  Online; accessed Oct. 20, 2025}
+    \field{title}{Introducing the Model Context Protocol}
+    \verb{url}
+    \verb https://www.anthropic.com/news/model-context-protocol
+    \endverb
+    \field{month}{11}
+    \field{year}{2024}
+  \endentry
+
+  \entry{anthropic2025skillspaths}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{Anthropic}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \keyw{english}
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\emph{Claude Code Configuration Guide}}
+    \field{note}{Online; accessed Oct. 20, 2025}
+    \field{title}{{Claude Code} Skills: File System Organization}
+    \verb{url}
+    \verb https://docs.anthropic.com/claude-code/skills/paths
+    \endverb
+    \field{year}{2025}
+  \endentry
+
+  \entry{microsoft2023wsl}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={{Microsoft}},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \keyw{english}
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\emph{Microsoft Docs}}
+    \field{note}{Online; accessed Oct. 20, 2025}
+    \field{title}{{Windows Subsystem for Linux} Documentation}
+    \verb{url}
+    \verb https://docs.microsoft.com/windows/wsl/
+    \endverb
+    \field{year}{2023}
+  \endentry
+
+  \entry{anthropic2025skillsexamples}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{Anthropic}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \keyw{english}
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\emph{Claude Code Skills Repository}}
+    \field{note}{Online; accessed Oct. 20, 2025}
+    \field{title}{Example Skills: Document Processing and {Web} Automation}
+    \verb{url}
+    \verb https://github.com/anthropics/claude-code-skills-examples
+    \endverb
+    \field{year}{2025}
+  \endentry
+
+  \entry{anthropic2025atrophy}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{Anthropic}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \keyw{english}
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\emph{Anthropic AI Safety Blog}}
+    \field{note}{Online; accessed Oct. 20, 2025}
+    \field{title}{Skill Atrophy: Preserving Human Expertise in the Age of {AI}
+  Automation}
+    \verb{url}
+    \verb https://www.anthropic.com/research/skill-atrophy
+    \endverb
+    \field{month}{10}
+    \field{year}{2025}
   \endentry
 \enddatalist
 \endinput
