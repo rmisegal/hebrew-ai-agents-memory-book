@@ -1,21 +1,31 @@
 \documentclass{hebrew-academic-template}
 \addbibresource{refs.bib}
-\begin{document}
-\hebrewtitle{בינה מבוזרת: סוכנים אוטונומיים בעידן הבינה המלאכותית}
-\englishtitle{Distributed Intelligence: Autonomous Agents in the Age of AI}
-\author{ד"ר יורם סגל}
-\date{\hebyear{2025}}
-\newcommand{\version}{\en{Version 8.0}}
-\maketitle
-\vspace{-1em}
-\begin{center}
-\version
-\end{center}
 
-\vspace{2em}
-\begin{center}
-\en{\includegraphics[width=0.85\textwidth]{images/פס יצור של סוכני AI.png}}
-\end{center}
+% Define version command for use in footers
+\newcommand{\version}{\en{Version 9.0}}
+
+\begin{document}
+
+% Custom title page with version and image
+\begin{titlepage}
+  \null\vfil
+  \begin{center}
+    \texthebrew{\LARGE\bfseries בינה מבוזרת: סוכנים אוטונומיים בעידן הבינה המלאכותית}\par
+    \vskip 1em
+    \textenglish{\Large\bfseries Distributed Intelligence: Autonomous Agents in the Age of AI}\par
+    \vskip 3em
+    {\large ד"ר יורם סגל \par}
+    \vskip 0.5em
+    {\large \textenglish{©} \textenglish{Dr. Yoram Segal} - כל הזכויות שמורות \par}
+    \vskip 2em
+    {\large \hebyear{2025} \par}
+    \vskip 1em
+    {\large \en{Version 9.0} \par}
+    \vskip 2em
+    \en{\includegraphics[width=0.75\textwidth]{images/פס יצור של סוכני AI.png}}
+  \end{center}
+  \vfil\null
+\end{titlepage}
 
 % Back Cover Page
 \newpage
@@ -57,6 +67,7 @@
 \fancyfoot[RE]{\en{©} \en{Dr. Yoram Segal} - כל הזכויות שמורות - \version}
 \fancyfoot[LO]{\en{©} \en{Dr. Yoram Segal} - כל הזכויות שמורות - \version}
 
+\newpage
 \begin{abstract}
 בעשור האחרון אנו עדים למעבר מפרדיגמת בינה מלאכותית יחידה למערכות המורכבות מצוות של סוכנים מתמחים. ספר זה בוחן לעומק שינוי פרדיגמה זה במבנה של \textbf{ארבעה חלקים משלימים}:
 

@@ -1,18 +1,18 @@
 # Distributed Intelligence: Autonomous Agents in the Age of AI
 
-[![Version](https://img.shields.io/badge/version-8.0-blue.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book/releases/tag/v8.0)
+[![Version](https://img.shields.io/badge/version-9.0-blue.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book/releases/tag/v9.0)
 [![Language](https://img.shields.io/badge/language-Hebrew-orange.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book)
 [![LaTeX](https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg)](https://www.latex-project.org/)
-[![Pages](https://img.shields.io/badge/pages-88-green.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book)
+[![Pages](https://img.shields.io/badge/pages-87-green.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book)
 [![Chapters](https://img.shields.io/badge/chapters-20-brightgreen.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book)
 [![Parts](https://img.shields.io/badge/parts-4-blue.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book)
 [![Bibliography](https://img.shields.io/badge/bibliography-51_entries-blue.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book)
 
 **Hebrew Title**: בינה מבוזרת: סוכנים אוטונומיים בעידן הבינה המלאכותית
 **Author**: Dr. Yoram Segal (ד"ר יורם סגל)
-**Version**: 8.0
+**Version**: 9.0
 **Release Date**: October 21, 2025
-**Pages**: 88
+**Pages**: 87
 **Structure**: 4 Parts, 20 Chapters, 6 Appendices
 **Language**: Hebrew (RTL) with English technical terms (LTR)
 **PDF Size**: 2.3 MB
@@ -363,7 +363,7 @@ lualatex main.tex
 | Parts | 4 |
 | Chapters | 20 |
 | Appendices | 6 |
-| Pages | 88 |
+| Pages | 87 |
 | RTL Tables | 4 |
 | Bibliography Entries | 51 |
 | Cross-References | 20+ |
@@ -555,7 +555,7 @@ gmail_ai_agent_book_and_example/
 │   │   ├── TASKS.md                 # Detailed checklist
 │   │   ├── COHERENCE_REVIEW.md      # Narrative analysis (9.9/10)
 │   │   └── PROJECT_COMPLETE.md      # Final summary
-│   └── main.pdf                     # Compiled book (88 pages, 2.3 MB)
+│   └── main.pdf                     # Compiled book (87 pages, 2.3 MB)
 ├── gmail-mcp-agent/                 # Implementation examples
 │   ├── manual_implementation/       # Manual MCP (Python 3.7+)
 │   ├── sdk_implementation/          # SDK-based (Python 3.10+)
@@ -589,7 +589,7 @@ lualatex main.tex
 lualatex main.tex
 ```
 
-The compiled PDF will be `main.pdf` (88 pages, 2.3 MB).
+The compiled PDF will be `main.pdf` (87 pages, 2.3 MB).
 
 ### Build the Gmail MCP Agent
 
