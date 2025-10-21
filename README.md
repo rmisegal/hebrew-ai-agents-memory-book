@@ -15,7 +15,7 @@
 **Pages**: 88
 **Structure**: 4 Parts, 20 Chapters, 6 Appendices
 **Language**: Hebrew (RTL) with English technical terms (LTR)
-**PDF Size**: 770 KB
+**PDF Size**: 2.3 MB
 
 ---
 
@@ -555,7 +555,7 @@ gmail_ai_agent_book_and_example/
 │   │   ├── TASKS.md                 # Detailed checklist
 │   │   ├── COHERENCE_REVIEW.md      # Narrative analysis (9.9/10)
 │   │   └── PROJECT_COMPLETE.md      # Final summary
-│   └── main.pdf                     # Compiled book (88 pages, 770 KB)
+│   └── main.pdf                     # Compiled book (88 pages, 2.3 MB)
 ├── gmail-mcp-agent/                 # Implementation examples
 │   ├── manual_implementation/       # Manual MCP (Python 3.7+)
 │   ├── sdk_implementation/          # SDK-based (Python 3.10+)
@@ -589,7 +589,7 @@ lualatex main.tex
 lualatex main.tex
 ```
 
-The compiled PDF will be `main.pdf` (88 pages, 770 KB).
+The compiled PDF will be `main.pdf` (88 pages, 2.3 MB).
 
 ### Build the Gmail MCP Agent
 
