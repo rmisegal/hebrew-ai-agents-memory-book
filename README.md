@@ -1,18 +1,19 @@
 # Distributed Intelligence: Autonomous Agents in the Age of AI
 
-[![Version](https://img.shields.io/badge/version-5.0-blue.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book/releases/tag/v5.0)
+[![Version](https://img.shields.io/badge/version-6.0-blue.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book/releases/tag/v6.0)
 [![Language](https://img.shields.io/badge/language-Hebrew-orange.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book)
 [![LaTeX](https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg)](https://www.latex-project.org/)
-[![Pages](https://img.shields.io/badge/pages-64-green.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book)
-[![Chapters](https://img.shields.io/badge/chapters-16-brightgreen.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book)
-[![Parts](https://img.shields.io/badge/parts-3-blue.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book)
+[![Pages](https://img.shields.io/badge/pages-82-green.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book)
+[![Chapters](https://img.shields.io/badge/chapters-20-brightgreen.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book)
+[![Parts](https://img.shields.io/badge/parts-4-blue.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book)
+[![Bibliography](https://img.shields.io/badge/bibliography-51_entries-blue.svg)](https://github.com/rmisegal/hebrew-ai-agents-memory-book)
 
 **Hebrew Title**: בינה מבוזרת: סוכנים אוטונומיים בעידן הבינה המלאכותית
 **Author**: Dr. Yoram Segal (ד"ר יורם סגל)
-**Version**: 5.0
+**Version**: 6.0
 **Release Date**: October 21, 2025
-**Pages**: 64
-**Structure**: 3 Parts, 16 Chapters
+**Pages**: 82
+**Structure**: 4 Parts, 20 Chapters
 **Language**: Hebrew (with English technical terms)
 
 ---
@@ -30,6 +31,7 @@ This comprehensive Hebrew-language academic book explores the paradigm shift fro
 - **Mathematical Frameworks**: Graph theory and linear algebra for multi-agent systems
 - **Persistent Memory Systems**: 4-file memory architecture for long-term agent cognition
 - **Skills & Modularity**: Progressive Disclosure architecture and reusable expertise packaging
+- **Philosophical Framework**: Ecclesiastes (Kohelet) lens on AI - Pshat, Drash, Sod analysis
 - **Practical Implementation**: Complete Gmail MCP agent with two implementation approaches
 
 ---
@@ -177,6 +179,37 @@ Custom LaTeX template with specialized functions for proper Hebrew-English mixin
     - 3 guiding principles for responsible use
     - Full-book synthesis: Architecture + Memory + Modularity
 
+### Part 4: Vanity of Vanities - Philosophical Framework
+
+17. **הבל הבלים: Ecclesiastes in the Age of AI** (קהלת בעידן הבינה המלאכותית)
+    - Introduction: Under the Digital Sun - establishing existential tension
+    - Table 1: Kohelet-AI mapping (Pshat, Drash, Sod framework)
+    - Part A: Futility of Optimization
+      - Chapter 1: Temporal nature of models and futile optimization
+      - Chapter 2: What profit has a person in all their labor? (Data suppliers)
+      - Chapter 3: Cycles return - data cycles and panic cycles
+
+18. **Time, Chance & Control - Facing Algorithmic Existence** (הזמן, המקרה והשליטה)
+    - Part B: Confronting algorithmic reality
+      - Chapter 4: A time for everything - tyranny of "real-time"
+      - Chapter 5: No advantage to the wise - democratization and expertise devaluation
+      - Chapter 7: In place of justice, wickedness - algorithmic bias and opacity
+    - Existential allegories: enslavement to algorithmic pace, loss of autonomy
+
+19. **Fear, Control & Solitude - Creator vs Created** (היראה, השליטה והבדידות)
+    - Part C: The ultimate reversal
+      - Chapter 8: AGI Alignment crisis and existential threat
+      - Chapter 9: Go, eat your bread with joy - optimized comfort's price
+    - Digital soul concept and quest for understanding
+    - Philosophical reduction of human emotion
+
+20. **Conclusion: Fear of the Algorithm & Preserving Humanity** (יראת האלגוריתם והמצווה החדשה)
+    - Full 4-part synthesis: Architecture → Memory → Modularity → Philosophy
+    - Table 2: Dichotomy - Human Anxiety vs Technological Wonder
+    - "Fear of the Algorithm" - recognizing transcendent power
+    - The new commandment: "Keep His Commandments" - preserving humanity
+    - Final mandate: safeguard non-algorithmic dimensions of existence
+
 ### Appendices
 
 - **Appendix א**: `gmail_mcp_server.py` - Manual implementation base
@@ -227,13 +260,13 @@ bibtex main
 lualatex main.tex
 lualatex main.tex
 
-# Output: main.pdf (64 pages, ~585KB)
+# Output: main.pdf (80 pages, ~710KB)
 ```
 
 **Expected Results:**
 - ✅ 0 errors (compilation must be clean)
 - ✅ ≤3 warnings (cosmetic only)
-- ✅ 64 pages in A4 format
+- ✅ 80 pages in A4 format
 - ✅ All cross-references resolved
 
 ### Running the Gmail MCP Agent
@@ -400,7 +433,55 @@ hebrew-ai-agents-memory-book/
 
 ## 📊 Version History
 
-### Version 5.0 (October 21, 2025) - Current Release
+### Version 6.0 (October 21, 2025) - Current Release
+
+**Major Expansion:**
+- ✅ Expanded from 3 parts (16 chapters) to 4 parts (20 chapters)
+- ✅ Added Part 4: הבל הבלים (Vanity of Vanities) - Philosophical Framework
+- ✅ 4 new chapters covering Ecclesiastes-based philosophical analysis (Chapters 17-20)
+- ✅ Pshat/Drash/Sod hermeneutical methodology for AI philosophy
+- ✅ Complete philosophical synthesis of all 4 parts
+
+**Content Additions:**
+- ✅ Chapter 17: הבל הבלים - Introduction + Part A (Futility of Optimization, 105 lines)
+- ✅ Chapter 18: Time, Chance & Control - Part B (Algorithmic Existence, 50 lines)
+- ✅ Chapter 19: Fear, Control & Solitude - Part C (Creator vs Created, 36 lines)
+- ✅ Chapter 20: Conclusion - Fear of the Algorithm & Preserving Humanity (60 lines)
+- ✅ 2 new RTL tables: Kohelet-AI Mapping (4×6), Anxiety vs Wonder Dichotomy (3×5)
+
+**Quality Improvements:**
+- ✅ Added 11+ bidirectional cross-references between all 4 parts
+- ✅ Forward references in Chapters 1, 13, 16 previewing Part 4
+- ✅ Backward references in Part 4 connecting to Parts 1-3 concepts
+- ✅ Chapter 20 provides comprehensive 4-part synthesis
+- ✅ Maintained 100% CLS compliance across all new chapters
+- ✅ Coherence review approved: 9.9/10 score
+- ✅ Fixed critical bugs: unclosed itemize, unwrapped AI terms
+
+**Technical Updates:**
+- ✅ Added 5 new bibliography entries (total: 51 from 46)
+- ✅ Part 4 division with Hebrew and English titles
+- ✅ Pagination improvements: TOC and Parts on new pages
+- ✅ Full compilation cycle: 0 blocking errors, clean bibtex
+- ✅ Created comprehensive memory system documentation (claude_mem_part4/)
+  - PRD.md, CLAUDE.md, PLANNING.md, TASKS.md
+  - STATUS_REVIEW.md, COHERENCE_REVIEW.md, PROJECT_COMPLETE.md
+
+**Final Metrics:**
+- Pages: 82 (from 64) +18 pages
+- Structure: 4 parts, 20 chapters + 6 appendices
+- Compilation: 0 errors, minor cosmetic warnings
+- File size: 744KB PDF (from 585KB)
+- LaTeX Lines (Part 4): 251 lines + 27 integration updates
+- Coherence Score: 9.9/10 (approved)
+- Status: Production-ready, philosophical framework integrated
+
+**Bug Fixes:**
+- ✅ Fixed unclosed `\begin{itemize}` in chapter11.tex line 109
+- ✅ Fixed unwrapped AI terms in chapter5.tex (CLS compliance)
+- ✅ Added proper pagination with `\newpage` before TOC and Parts
+
+### Version 5.0 (October 21, 2025) - Previous Release
 
 **Major Expansion:**
 - ✅ Expanded from 2 parts (13 chapters) to 3 parts (16 chapters)

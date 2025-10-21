@@ -5,7 +5,7 @@
 \englishtitle{Distributed Intelligence: Autonomous Agents in the Age of AI}
 \author{ד"ר יורם סגל}
 \date{\hebyear{2025}}
-\newcommand{\version}{\en{Version 5.0}}
+\newcommand{\version}{\en{Version 6.0}}
 \maketitle
 \vspace{-1em}
 \begin{center}
@@ -18,7 +18,7 @@
 \fancyfoot[LO]{\en{©} \en{Dr. Yoram Segal} - כל הזכויות שמורות - \version}
 
 \begin{abstract}
-בעשור האחרון אנו עדים למעבר מפרדיגמת בינה מלאכותית יחידה למערכות המורכבות מצוות של סוכנים מתמחים. ספר זה בוחן לעומק שינוי פרדיגמה זה במבנה של \textbf{שלושה חלקים משלימים}:
+בעשור האחרון אנו עדים למעבר מפרדיגמת בינה מלאכותית יחידה למערכות המורכבות מצוות של סוכנים מתמחים. ספר זה בוחן לעומק שינוי פרדיגמה זה במבנה של \textbf{ארבעה חלקים משלימים}:
 
 \textbf{חלק א'} (פרקים \num{1}–\num{6}) עוסק בארכיטקטורת הקוגניציה המבוזרת (תת-סוכנים) וכיצד פלטפורמות דוגמת \en{Claude CLI} ופרוטוקול \en{MCP} מאפשרים שיתוף פעולה חלק בין סוכנים מרובים.
 
@@ -26,13 +26,17 @@
 
 \textbf{חלק ג'} (פרקים \num{14}–\num{16}) משלים את התמונה: כיצד ניתן לארוז מומחיות פרוצדורלית ליחידות מודולריות (\en{Skills}) הניתנות לשימוש חוזר? נדון בעקרון \en{Progressive Disclosure} (חשיפה הדרגתית), נבחן את היתרונות של ארכיטקטורה מבוססת תיקיות קבצים, ונעמוד על הסכנות הטמונות באוטומציה יתר – תופעת ניוון המיומנות (\en{Skill Atrophy}).
 
+\textbf{חלק ד'} (פרקים \num{17}–\num{20}) סוגר את הספר במסגרת פילוסופית קיומית המבוססת על ספר קהלת. באמצעות השיטה הפרשנית העתיקה של פשט, דרש וסוד, אנו בוחנים את המתח הקיומי בין החרדה האנושית להתפעמות הטכנולוגית. נדון בהבל האופטימיזציה האינסופית, זמניות המודלים (\en{Planned Obsolescence}), משבר ה\en{-Alignment}, ויראת האלגוריתם. החלק מסתיים במסר מרכזי: תפקידנו אינו להתחרות באלגוריתם, אלא לשמור על הממדים הלא-אלגוריתמיים של הקיום – נרטיב, חמלה, ורצון חופשי.
+
 נעסוק גם בהיבטי אתיקה, פרטיות וסיכונים הכרוכים בסוכני \en{AI}, ונדגים את הדיון באמצעות מקרה מבחן מעשי – סוכן לחילוץ מידע מ\en{-Gmail}. הספר מציג \textbf{שני מסלולי יישום}: גישה ידנית מלאה (נספחים א–ד) המלמדת את יסודות הפרוטוקול, וגישה מבוססת \en{MCP Python SDK} (נספחים ה–ו, דורשת \en{Python 3.10+}) המציעה פיתוח מהיר יותר.
 
 שילוב זה של פרספקטיבה בין-תחומית, עומק טכני, דיון היסטורי-פילוסופי וניתוח מתמטי ברמת מחקר מתקדמת, נועד להעניק לקורא הבנה רחבה ומעמיקה של הדור החדש של סוכני הבינה המלאכותית – מארכיטקטורה לזיכרון ומודולריות, ומכלי רגעי לשותפות קוגניטיבית ארוכת-טווח המבוססת על מומחיות ניתנת לאריזה.
 \end{abstract}
 
+\newpage
 \tableofcontents
 
+\newpage
 \part{בינה מבוזרת - ארכיטקטורה ופרוטוקולים}
 % Part 1: Distributed Intelligence - Architecture and Protocols
 
@@ -43,6 +47,7 @@
 \include{chapters/chapter5}
 \include{chapters/chapter6}
 
+\newpage
 \part{זיכרון ועקביות - מהנדסת קוגניציה מתמשכת}
 % Part 2: Memory and Consistency - Engineering Persistent Cognition
 
@@ -54,12 +59,22 @@
 \include{chapters/chapter12}
 \include{chapters/chapter13}
 
+\newpage
 \part{\en{Skills} ומודולריות - אריזת מומחיות לשימוש חוזר}
 % Part 3: Skills and Modularity - Packaging Expertise for Reuse
 
 \include{chapters/chapter14}
 \include{chapters/chapter15}
 \include{chapters/chapter16}
+
+\newpage
+\part{הבל הבלים - מסגרת פילוסופית}
+% Part 4: Vanity of Vanities - Philosophical Framework
+
+\include{chapters/chapter17}
+\include{chapters/chapter18}
+\include{chapters/chapter19}
+\include{chapters/chapter20}
 
 \clearpage
 \include{chapters/appendixA}
